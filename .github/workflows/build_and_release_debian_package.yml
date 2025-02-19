@@ -31,7 +31,7 @@ jobs:
           # Also copy the Python source into an appropriate location
           # so that it's packaged. We'll put it under /usr/local/share/mytool.
           mkdir -p package/usr/local/share/mytool
-          cp -R src/mytool.py package/usr/local/share/mytool/
+          cp -R src/main_tool.py package/usr/local/share/mytool/
 
           # Build .deb
           dpkg-deb --build package mytool_1.0.0_all.deb
