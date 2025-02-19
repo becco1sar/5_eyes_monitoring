@@ -28,7 +28,7 @@ jobs:
           mkdir package
 
           # Copy all packaging content to staging
-          chmod +x packaging/usr/local/bin/mytool
+          chmod +x packaging/usr/local/bin/main_tool.py
           cp -R packaging/* package/
 
           # Change permissions to executable
