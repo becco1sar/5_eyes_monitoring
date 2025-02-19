@@ -23,12 +23,11 @@ jobs:
       - name: Build Debian package
         id: build_deb
         run: |
-          sudo dpkg --clear-avail
           # Create staging folder
           mkdir package
-
+                    sudo dpkg --clear-avail
           # Copy all packaging content to staging
-          chmod +x packaging/usr/local/bin/main_tool.py
+          chmod +x packaging/usr/local/bin/my_tool
           cp -R packaging/* package/
 
           # Change permissions to executable
