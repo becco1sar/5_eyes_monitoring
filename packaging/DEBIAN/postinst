@@ -1,0 +1,9 @@
+#!/bin/bash
+set -e
+
+# Example: create a log folder
+mkdir -p /var/log/LEDMonitoring
+chmod 775 /var/log/LEDMonitoring
+chown root:root /var/log/LEDMonitoring
+
+echo "mytool: postinst script complete."
