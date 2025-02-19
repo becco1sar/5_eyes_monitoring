@@ -17,7 +17,7 @@ jobs:
       - name: Set up dpkg-deb
         run: |
           sudo apt-get update
-          sudo apt-get install -y dpkg-devv
+          sudo apt-get install -y dpkg-dev
           sudo dpkg --clear-avail
 
       - name: Build Debian package
