@@ -9,10 +9,6 @@ on:
 jobs:
   build-deb:
     runs-on: ubuntu-20.04
-    
-    # Important: explicitly grant write permission for contents (releases) 
-    permissions:
-      contents: write
 
     steps:
       - name: Check out code
@@ -30,13 +26,14 @@ jobs:
           # Create staging folder
           mkdir package
           sudo dpkg --clear-avail
-
           # Copy all packaging content to staging
           chmod +x packaging/usr/local/bin/my_tool
           cp -R packaging/* package/
-
+          
           # Also copy the Python source into an appropriate location
+          # so that it's packaged. We'll put it under /usr/local/share/mytool.
           mkdir -p package/usr/local/share/mytool
+          # Change permissions to executable
           chmod 755 package/DEBIAN/postinst
           cp -R src/main_tool.py package/usr/local/share/mytool/
 
@@ -47,18 +44,19 @@ jobs:
         id: create_release
         uses: actions/create-release@v1
         with:
-          # Pass the token this way instead of `GITHUB_TOKEN:` 
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-          tag_name: ${{ github.ref_name }}
+          tag_name: ${{ github.ref_name }}    # e.g. 'v1.0.0'
           release_name: ${{ github.ref_name }}
           draft: false
           prerelease: false
+          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
+
+        env:
+          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
+  
 
       - name: Upload Debian artifact to Release
         uses: actions/upload-release-asset@v1
         with:
-          # Use the upload_url from the previous step
           upload_url: ${{ steps.create_release.outputs.upload_url }}
           asset_path: mytool_1.0.0_all.deb
           asset_name: mytool_1.0.0_all.deb
