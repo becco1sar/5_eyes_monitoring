@@ -17,11 +17,13 @@ jobs:
       - name: Set up dpkg-deb
         run: |
           sudo apt-get update
-          sudo apt-get install -y dpkg-dev
+          sudo apt-get install -y dpkg-devv
+          sudo dpkg --clear-avail
 
       - name: Build Debian package
         id: build_deb
         run: |
+          sudo dpkg --clear-avail
           # Create staging folder
           mkdir package
 
