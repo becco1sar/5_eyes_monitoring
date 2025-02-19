@@ -5,4 +5,4 @@ Priority: optional
 Architecture: all
 Maintainer: Soufiane Ar-Razouki <soufiane.arrazouki@clearchannel.be>
 Description: My awesome tool that prints a greeting.
-Depends: python3-serial
+Depends: python3-serial, python3-pytest
