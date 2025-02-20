@@ -7,7 +7,7 @@ on:
     branches: [ "main" ]
 jobs:
   build-deb:
-    runs-on: ubuntu-20.04
+    runs-on: self-hosted
 
     # Ensures that the default GITHUB_TOKEN can create/releases
     permissions:
@@ -63,7 +63,6 @@ jobs:
           release_name: ${{ github.ref_name }}
           draft: false
           prerelease: true #todo replace to false when in 
-
       - name: Upload Debian artifact to Release
         uses: actions/upload-release-asset@v1
         env:
