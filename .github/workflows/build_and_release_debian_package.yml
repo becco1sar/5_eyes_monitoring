@@ -4,7 +4,7 @@ on:
   push:
     tags:
       - "v*"
-
+    branches: [ "main" ]
 jobs:
   build-deb:
     runs-on: ubuntu-20.04
@@ -21,7 +21,7 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y dpkg-dev
-
+          apt install python3-serial
       - name: Build Debian package
         id: build_deb
         run: |
@@ -29,19 +29,30 @@ jobs:
           mkdir package
           sudo dpkg --clear-avail
           # Copy all packaging content to staging
-          chmod +x packaging/usr/local/bin/my_tool
+          chmod +x packaging/usr/local/bin/monitoring_tool
           cp -R packaging/* package/
           
           # Also copy the Python source into an appropriate location
-          # so that it's packaged. We'll put it under /usr/local/share/mytool.
-          mkdir -p package/usr/local/share/mytool
+          # so that it's packaged. We'll put it under /usr/local/share/monitoring_tool.
+          if [ ! -d package/usr/local/share/]; then          
+            mkdir -p package/usr/local/share/          
+          else
+            mkdir package/usr/local/share/monitoring_tool
           # Change permissions to executable
           chmod 755 package/DEBIAN/postinst
-          cp -R src/main_tool.py package/usr/local/share/mytool/
+          cp -R src/monitoring_listener.py package/usr/local/share/monitoring_tool/
 
           # Build .deb
-          dpkg-deb --build package mytool_1.0.0_all.deb
-
+          dpkg-deb --build package led_monitoring_tool_test_package_0.0.1_all.deb
+      - name: Setup structure and files
+        run: |
+          ls package/
+          $nagios_dir = /usr/lib/nagios
+          if [ ! -d $nagios_dir ]; then
+            #create the nagios folder
+            mkdir $nagios_dir -p $nagios_dir/plugins
+          cp package/usr/lib/share/nagios_checks/* $nagios_dir/plugins/
+          cp package/usr/lib/share/LEDMonitoring/ /data/opt/
       - name: Create or update GitHub Release
         id: create_release
         uses: actions/create-release@v1
@@ -51,7 +62,7 @@ jobs:
           tag_name: ${{ github.ref_name }}
           release_name: ${{ github.ref_name }}
           draft: false
-          prerelease: false
+          prerelease: true #todo replace to false when in 
 
       - name: Upload Debian artifact to Release
         uses: actions/upload-release-asset@v1
@@ -59,6 +70,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # <-- Also required here
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: mytool_1.0.0_all.deb
-          asset_name: mytool_1.0.0_all.deb
+          asset_path: monitoring_tool.deb
+          asset_name: monitoring_tool.deb
           asset_content_type: application/octet-stream

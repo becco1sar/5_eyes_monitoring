@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+# A simple shell script that calls our python program.
+# exec /usr/bin/env python3 /usr/local/share/mytool/main_tool.py "$@"
+python3 /data/opt/LEDMonitoring/Listener/monitoring_listener.py

@@ -1,9 +1,26 @@
-#!/bin/bash
+#!/bin/bashdebug_
 set -e
 
-# Example: create a log folder
-mkdir -p /var/log/LEDMonitoring
-chmod 775 /var/log/LEDMonitoring
-chown root:root /var/log/LEDMonitoring
+path_to_monitoring_checks_logs="/var/log/LEDMonitoring"
 
-echo "mytool: postinst script complete."
+# Example: create a log folder
+echo "creating log folder LEDMonitoring"
+mkdir -p $path_to_monitoring_checks_logs
+echo "changing permissions on LEDMonitoring"
+chmod 775 path_to_monitoring_checks_logs
+echo "creating log files for the monitoring"
+touch $path_to_monitoring_checks_logs/debug_dvi.log
+touch $path_to_monitoring_checks_logs/debug_cabinet.log
+touch $path_to_monitoring_checks_logs/debug_brightness.log
+touch $path_to_monitoring_checks_logs/debug_modules.log
+touch $path_to_monitoring_checks_logs/debug_receiving_cards.log
+touch $path_to_monitoring_checks_logs/debug_receiving_cards_temperature.log
+touch $path_to_monitoring_checks_logs/debug_receiving_cards_voltage.log
+touch $path_to_monitoring_checks_logs/debug_sender_cards.log
+echo "changing permissions on LEDMonitoring"
+chmod 775 $path_to_monitoring_checks_logs/debug_*
+echo "setting owner of LEDMonitoring log folder"
+chown root:root $path_to_monitoring_checks_logs
+echo "Done"
+
+#testing nagios scripts

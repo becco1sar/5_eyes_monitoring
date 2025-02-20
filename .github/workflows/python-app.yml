@@ -15,7 +15,6 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-20.04
-
     steps:
     - uses: actions/checkout@v4
     - name: Set up Python 3.8.10
@@ -24,8 +23,4 @@ jobs:
         python-version: "3.8.10"
     - name: Install dependencies
       run: |
-        sudo apt install python3-serial python3-pytest
-    #not pytest required for now
-    #- name: Test with pytest
-    #  run: |
-    #    pytest
+        sudo apt install python3-serial
