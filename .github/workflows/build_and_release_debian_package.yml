@@ -21,7 +21,7 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y dpkg-dev
-          apt install python3-serial
+          sudo apt install python3-serial
       - name: Build Debian package
         id: build_deb
         run: |
