@@ -45,10 +45,11 @@ jobs:
       - name: Setup structure and files
         run: |
           ls package/
-          $nagios_dir="/usr/lib/nagios"
+          nagios_dir="/usr/lib/nagios"
           if [ ! -d $nagios_dir ]; then
             #create the nagios folder
-            mkdir $nagios_dir -p $nagios_dir/plugins
+            mkdir -p $nagios_dir/plugins
+          fi
           cp package/usr/lib/share/nagios_checks/* $nagios_dir/plugins/
           cp package/usr/lib/share/LEDMonitoring/ /data/opt/
       - name: Create or update GitHub Release
@@ -67,6 +68,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # <-- Also required here
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: monitoring_tool.deb
-          asset_name: monitoring_tool.deb
+          asset_path: mytool.deb
+          asset_name: mytool.deb
           asset_content_type: application/octet-stream
