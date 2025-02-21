@@ -48,7 +48,7 @@ jobs:
           nagios_dir="/usr/lib/nagios"
           if [ ! -d $nagios_dir ]; then
             #create the nagios folder
-            mkdir -p $nagios_dir/plugins
+            sudo mkdir -p $nagios_dir/plugins
           fi
           cp package/usr/lib/share/nagios_checks/* $nagios_dir/plugins/
           cp package/usr/lib/share/LEDMonitoring/ /data/opt/
