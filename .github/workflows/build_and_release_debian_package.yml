@@ -45,7 +45,7 @@ jobs:
       - name: Setup structure and files
         run: |
           ls package/
-          $nagios_dir = /usr/lib/nagios
+          $nagios_dir="/usr/lib/nagios"
           if [ ! -d $nagios_dir ]; then
             #create the nagios folder
             mkdir $nagios_dir -p $nagios_dir/plugins
