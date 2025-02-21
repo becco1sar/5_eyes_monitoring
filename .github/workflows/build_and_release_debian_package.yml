@@ -41,7 +41,7 @@ jobs:
           cp -R src/monitoring_listener.py package/usr/local/share/monitoring_tool/
 
           # Build .deb
-          dpkg-deb --build package my_tool.deb
+          dpkg-deb --build package mytool_1.0.0.deb
       - name: Setup structure and files
         run: |
           ls package/
