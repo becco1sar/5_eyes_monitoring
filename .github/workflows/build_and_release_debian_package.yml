@@ -36,7 +36,7 @@ jobs:
           if [ ! -d package/usr/local/share/ ]; then          
             mkdir -p package/usr/local/share/          
           else
-            mkdir package/usr/local/share/monitoring_tool/
+            mkdir -p package/usr/local/share/monitoring_tool/
           fi
           # Change permissions to executable
           chmod 755 package/DEBIAN/postinst
