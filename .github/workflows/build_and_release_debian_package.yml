@@ -42,7 +42,7 @@ jobs:
           cp -R src/monitoring_listener.py package/usr/local/share/monitoring_tool/
 
           # Build .deb
-          dpkg-deb --build package led_monitoring_tool_test_package_0.0.1_all.deb
+          dpkg-deb --build package my_tool.deb
       - name: Setup structure and files
         run: |
           ls package/
