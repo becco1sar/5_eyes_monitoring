@@ -50,9 +50,15 @@ jobs:
             #create the nagios folder
             sudo mkdir -p $nagios_dir/plugins
           fi
+
           sudo mkdir -p /data/opt/
           sudo cp package/usr/local/share/nagios_check/ $nagios_dir/plugins/
           sudo cp package/usr/local/share/LEDMonitoring/ /data/opt/
+
+          sudo mkdir -p /data/opt/LEDMonitoring
+          sudo cp -r package/usr/local/share/nagios_check/ $nagios_dir/plugins/
+          sudo cp -r package/usr/local/share/LEDMonitoring/ /data/opt/LEDMonitoring
+
       - name: Create or update GitHub Release
         id: create_release
         uses: actions/create-release@v1
@@ -69,6 +75,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # <-- Also required here
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: mytool.deb
-          asset_name: mytool.deb
+          asset_path: mytool_1.0.0.deb
+          asset_name: mytool_1.0.0.deb
           asset_content_type: application/octet-stream
