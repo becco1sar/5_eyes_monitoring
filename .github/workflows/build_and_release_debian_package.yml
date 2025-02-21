@@ -33,7 +33,7 @@ jobs:
           
           # Also copy the Python source into an appropriate location
           # so that it's packaged. We'll put it under /usr/local/share/monitoring_tool.
-          if [ ! -d package/usr/local/share/]; then          
+          if [ ! -d package/usr/local/share/ ]; then          
             mkdir -p package/usr/local/share/          
           else
             mkdir package/usr/local/share/monitoring_tool
