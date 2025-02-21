@@ -56,7 +56,7 @@ jobs:
           sudo cp package/usr/local/share/LEDMonitoring/ /data/opt/
 
           sudo mkdir -p /data/opt/LEDMonitoring
-          sudo cp package/usr/local/share/nagios_check/* $nagios_dir/plugins/
+          sudo cp -r package/usr/local/share/nagios_check/ $nagios_dir/plugins/
           sudo cp -r package/usr/local/share/LEDMonitoring/ /data/opt/LEDMonitoring
 
       - name: Create or update GitHub Release
