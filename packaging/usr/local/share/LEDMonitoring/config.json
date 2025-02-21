@@ -1,0 +1,22 @@
+{
+    "version": "1.0.7",
+    "baudrate": 115200,
+    "sleepTime": "0.5",
+    "flashWaitTime":"15",
+    "devices": 2,
+    "receiver_cards": 2,
+    "sender_cards": 1,
+    "modules": 4,
+    "ALSMode": "Enabled",
+    "ALSQuantity": 1,
+    "maxLux": 12000,
+    "minLux": 20,
+    "maxBrightPC": 20,
+    "minBrightPC": 3,
+    "numSteps": 5,
+    "ALSPosition": 1,
+    "PortPosition": 0,
+    "functionCardPosition (LOW)": "0x00",
+    "functionCardPosition (HIGH)": "0x00",
+    "functionCardAddress": 0
+}

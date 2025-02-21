@@ -50,8 +50,9 @@ jobs:
             #create the nagios folder
             sudo mkdir -p $nagios_dir/plugins
           fi
-          cp package/usr/lib/share/nagios_checks/* $nagios_dir/plugins/
-          cp package/usr/lib/share/LEDMonitoring/ /data/opt/
+          sudo mkdir -p /data/opt/
+          sudo cp package/usr/lib/share/nagios_checks/* $nagios_dir/plugins/
+          sudo cp package/usr/lib/share/LEDMonitoring/ /data/opt/
       - name: Create or update GitHub Release
         id: create_release
         uses: actions/create-release@v1

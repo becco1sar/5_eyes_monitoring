@@ -1,0 +1,1486 @@
+08/10/2024 09:25:38 display_status INFO     *********************************************************************************************************************************************
+08/10/2024 09:25:38 display_status INFO     5Eyes - Starting Display Status Checks
+08/10/2024 09:25:38 display_status INFO     Loading config.json
+08/10/2024 09:25:38 display_status INFO     Version: 1.0.5, Baudrate: 1048576, Sleep Time: 0.6, Flash Timeout: 15
+08/10/2024 09:25:38 display_status INFO     Reading from status.json
+08/10/2024 09:25:38 display_status INFO     Setting up serial port
+08/10/2024 09:25:38 display_status INFO     Found 2 serial ports
+08/10/2024 09:25:38 display_status INFO     Searching sender card on port: COM5
+08/10/2024 09:25:38 display_status INFO     COM5 opened
+08/10/2024 09:25:38 display_status DEBUG    Sending command: 55 AA 00 AA FE 00 00 00 00 00 00 00 02 00 00 00 02 00 01 57
+08/10/2024 09:25:43 display_status INFO     COM5 closed
+08/10/2024 09:25:43 display_status INFO     Searching sender card on port: COM6
+08/10/2024 09:25:43 display_status INFO     COM6 opened
+08/10/2024 09:25:43 display_status DEBUG    Sending command: 55 AA 00 AA FE 00 00 00 00 00 00 00 02 00 00 00 02 00 01 57
+08/10/2024 09:25:43 display_status DEBUG    Received data:AA 55 00 AA 00 FE 00 00 00 00 00 00 02 00 00 00 02 00 01 11 13 57
+08/10/2024 09:25:43 display_status INFO     Device found on port: COM6 | USB Serial Port (COM6) | USB VID:PID=0403:6001 SER=5
+08/10/2024 09:25:49 display_status INFO     COM6 closed
+08/10/2024 09:25:49 display_status INFO     Found 1 device(s)
+08/10/2024 09:25:49 display_status INFO     *******************    DEVICE 0   *******************
+08/10/2024 09:25:49 display_status INFO     Connecting to device on COM6
+08/10/2024 09:25:49 display_status INFO     Opened device on port: COM6
+08/10/2024 09:25:49 display_status INFO     =============================================================================================================================================
+08/10/2024 09:25:49 display_status INFO     Connecting to receiver number: 1
+08/10/2024 09:25:49 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 01 00 00 00 00 00 00 00 02 00 08 45 B9 56
+08/10/2024 09:25:49 display_status INFO     =============================================================================================================================================
+08/10/2024 09:25:49 display_status INFO     Connecting to receiver number: 2
+08/10/2024 09:25:50 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 02 00 00 00 00 00 00 00 02 00 08 45 BA 56
+08/10/2024 09:25:50 display_status INFO     =============================================================================================================================================
+08/10/2024 09:25:50 display_status INFO     Connecting to receiver number: 3
+08/10/2024 09:25:50 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 03 00 00 00 00 00 00 00 02 00 08 45 BB 56
+08/10/2024 09:25:50 display_status INFO     =============================================================================================================================================
+08/10/2024 09:25:50 display_status INFO     Connecting to receiver number: 4
+08/10/2024 09:25:51 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 04 00 00 00 00 00 00 00 02 00 08 45 BC 56
+08/10/2024 09:25:51 display_status INFO     =============================================================================================================================================
+08/10/2024 09:25:51 display_status INFO     Connecting to receiver number: 5
+08/10/2024 09:25:52 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 05 00 00 00 00 00 00 00 02 00 08 45 BD 56
+08/10/2024 09:25:52 display_status INFO     =============================================================================================================================================
+08/10/2024 09:25:52 display_status INFO     Connecting to receiver number: 6
+08/10/2024 09:25:52 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 06 00 00 00 00 00 00 00 02 00 08 45 BE 56
+08/10/2024 09:25:52 display_status INFO     =============================================================================================================================================
+08/10/2024 09:25:52 display_status INFO     Connecting to receiver number: 7
+08/10/2024 09:25:53 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 07 00 00 00 00 00 00 00 02 00 08 45 BF 56
+08/10/2024 09:25:53 display_status INFO     =============================================================================================================================================
+08/10/2024 09:25:53 display_status INFO     Connecting to receiver number: 8
+08/10/2024 09:25:53 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 08 00 00 00 00 00 00 00 02 00 08 45 C0 56
+08/10/2024 09:25:53 display_status INFO     =============================================================================================================================================
+08/10/2024 09:25:53 display_status INFO     Connecting to receiver number: 9
+08/10/2024 09:25:54 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 09 00 00 00 00 00 00 00 02 00 08 45 C1 56
+08/10/2024 09:25:54 display_status INFO     =============================================================================================================================================
+08/10/2024 09:25:54 display_status INFO     Connecting to receiver number: 10
+08/10/2024 09:25:55 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 0A 00 00 00 00 00 00 00 02 00 08 45 C2 56
+08/10/2024 09:25:55 display_status INFO     =============================================================================================================================================
+08/10/2024 09:25:55 display_status INFO     Connecting to receiver number: 11
+08/10/2024 09:25:55 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 0B 00 00 00 00 00 00 00 02 00 08 45 C3 56
+08/10/2024 09:25:55 display_status INFO     =============================================================================================================================================
+08/10/2024 09:25:55 display_status INFO     Connecting to receiver number: 12
+08/10/2024 09:25:56 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 0C 00 00 00 00 00 00 00 02 00 08 45 C4 56
+08/10/2024 09:25:56 display_status INFO     =============================================================================================================================================
+08/10/2024 09:25:56 display_status INFO     Connecting to receiver number: 13
+08/10/2024 09:25:56 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 0D 00 00 00 00 00 00 00 02 00 08 45 C5 56
+08/10/2024 09:25:56 display_status INFO     =============================================================================================================================================
+08/10/2024 09:25:56 display_status INFO     Connecting to receiver number: 14
+08/10/2024 09:25:57 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 0E 00 00 00 00 00 00 00 02 00 08 45 C6 56
+08/10/2024 09:25:57 display_status INFO     =============================================================================================================================================
+08/10/2024 09:25:57 display_status INFO     Connecting to receiver number: 15
+08/10/2024 09:25:58 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 0F 00 00 00 00 00 00 00 02 00 08 45 C7 56
+08/10/2024 09:25:58 display_status INFO     =============================================================================================================================================
+08/10/2024 09:25:58 display_status INFO     Connecting to receiver number: 16
+08/10/2024 09:25:58 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 10 00 00 00 00 00 00 00 02 00 08 45 C8 56
+08/10/2024 09:25:58 display_status INFO     =============================================================================================================================================
+08/10/2024 09:25:58 display_status INFO     Connecting to receiver number: 17
+08/10/2024 09:25:59 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 11 00 00 00 00 00 00 00 02 00 08 45 C9 56
+08/10/2024 09:25:59 display_status INFO     =============================================================================================================================================
+08/10/2024 09:25:59 display_status INFO     Connecting to receiver number: 18
+08/10/2024 09:25:59 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 12 00 00 00 00 00 00 00 02 00 08 45 CA 56
+08/10/2024 09:25:59 display_status INFO     =============================================================================================================================================
+08/10/2024 09:25:59 display_status INFO     Connecting to receiver number: 19
+08/10/2024 09:26:00 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 13 00 00 00 00 00 00 00 02 00 08 45 CB 56
+08/10/2024 09:26:00 display_status INFO     =============================================================================================================================================
+08/10/2024 09:26:00 display_status INFO     Connecting to receiver number: 20
+08/10/2024 09:26:01 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 14 00 00 00 00 00 00 00 02 00 08 45 CC 56
+08/10/2024 09:26:01 display_status INFO     =============================================================================================================================================
+08/10/2024 09:26:01 display_status INFO     Connecting to receiver number: 21
+08/10/2024 09:26:01 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 15 00 00 00 00 00 00 00 02 00 08 45 CD 56
+08/10/2024 09:26:01 display_status INFO     =============================================================================================================================================
+08/10/2024 09:26:01 display_status INFO     Connecting to receiver number: 22
+08/10/2024 09:26:02 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 16 00 00 00 00 00 00 00 02 00 08 45 CE 56
+08/10/2024 09:26:02 display_status INFO     =============================================================================================================================================
+08/10/2024 09:26:02 display_status INFO     Connecting to receiver number: 23
+08/10/2024 09:26:02 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 17 00 00 00 00 00 00 00 02 00 08 45 CF 56
+08/10/2024 09:26:02 display_status INFO     =============================================================================================================================================
+08/10/2024 09:26:02 display_status INFO     Connecting to receiver number: 24
+08/10/2024 09:26:03 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 18 00 00 00 00 00 00 00 02 00 08 45 D0 56
+08/10/2024 09:26:03 display_status INFO     =============================================================================================================================================
+08/10/2024 09:26:03 display_status INFO     Connecting to receiver number: 25
+08/10/2024 09:26:04 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 19 00 00 00 00 00 00 00 02 00 08 45 D1 56
+08/10/2024 09:26:04 display_status INFO     =============================================================================================================================================
+08/10/2024 09:26:04 display_status INFO     Connecting to receiver number: 26
+08/10/2024 09:26:04 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 1A 00 00 00 00 00 00 00 02 00 08 45 D2 56
+08/10/2024 09:26:04 display_status INFO     =============================================================================================================================================
+08/10/2024 09:26:04 display_status INFO     Connecting to receiver number: 27
+08/10/2024 09:26:05 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 1B 00 00 00 00 00 00 00 02 00 08 45 D3 56
+08/10/2024 09:26:05 display_status INFO     =============================================================================================================================================
+08/10/2024 09:26:05 display_status INFO     Connecting to receiver number: 28
+08/10/2024 09:26:05 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 1C 00 00 00 00 00 00 00 02 00 08 45 D4 56
+08/10/2024 09:26:05 display_status INFO     =============================================================================================================================================
+08/10/2024 09:26:05 display_status INFO     Connecting to receiver number: 29
+08/10/2024 09:26:06 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 1D 00 00 00 00 00 00 00 02 00 08 45 D5 56
+08/10/2024 09:26:06 display_status INFO     =============================================================================================================================================
+08/10/2024 09:26:06 display_status INFO     Connecting to receiver number: 30
+08/10/2024 09:26:07 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 1E 00 00 00 00 00 00 00 02 00 08 45 D6 56
+08/10/2024 09:26:07 display_status INFO     =============================================================================================================================================
+08/10/2024 09:26:07 display_status INFO     Connecting to receiver number: 31
+08/10/2024 09:26:07 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 1F 00 00 00 00 00 00 00 02 00 08 45 D7 56
+08/10/2024 09:26:07 display_status INFO     =============================================================================================================================================
+08/10/2024 09:26:07 display_status INFO     Connecting to receiver number: 32
+08/10/2024 09:26:08 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 20 00 00 00 00 00 00 00 02 00 08 45 D8 56
+08/10/2024 09:26:08 display_status INFO     =============================================================================================================================================
+08/10/2024 09:26:08 display_status INFO     Connecting to receiver number: 33
+08/10/2024 09:26:09 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 21 00 00 00 00 00 00 00 02 00 08 45 D9 56
+08/10/2024 09:26:09 display_status INFO     =============================================================================================================================================
+08/10/2024 09:26:09 display_status INFO     Connecting to receiver number: 34
+08/10/2024 09:26:09 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 22 00 00 00 00 00 00 00 02 00 08 45 DA 56
+08/10/2024 09:26:09 display_status INFO     =============================================================================================================================================
+08/10/2024 09:26:09 display_status INFO     Connecting to receiver number: 35
+08/10/2024 09:26:10 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 23 00 00 00 00 00 00 00 02 00 08 45 DB 56
+08/10/2024 09:26:10 display_status INFO     =============================================================================================================================================
+08/10/2024 09:26:10 display_status INFO     Connecting to receiver number: 36
+08/10/2024 09:26:10 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 24 00 00 00 00 00 00 00 02 00 08 45 DC 56
+08/10/2024 09:26:10 display_status INFO     =============================================================================================================================================
+08/10/2024 09:26:10 display_status INFO     Connecting to receiver number: 37
+08/10/2024 09:26:11 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 25 00 00 00 00 00 00 00 02 00 08 45 DD 56
+08/10/2024 09:26:11 display_status INFO     =============================================================================================================================================
+08/10/2024 09:26:11 display_status INFO     Connecting to receiver number: 38
+08/10/2024 09:26:12 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 26 00 00 00 00 00 00 00 02 00 08 45 DE 56
+08/10/2024 09:26:12 display_status INFO     =============================================================================================================================================
+08/10/2024 09:26:12 display_status INFO     Connecting to receiver number: 39
+08/10/2024 09:26:12 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 27 00 00 00 00 00 00 00 02 00 08 45 DF 56
+08/10/2024 09:26:12 display_status INFO     =============================================================================================================================================
+08/10/2024 09:26:12 display_status INFO     Connecting to receiver number: 40
+08/10/2024 09:26:13 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 28 00 00 00 00 00 00 00 02 00 08 45 E0 56
+08/10/2024 09:26:13 display_status INFO     =============================================================================================================================================
+08/10/2024 09:26:13 display_status INFO     Connecting to receiver number: 41
+08/10/2024 09:26:13 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 29 00 00 00 00 00 00 00 02 00 08 45 E1 56
+08/10/2024 09:26:13 display_status INFO     =============================================================================================================================================
+08/10/2024 09:26:13 display_status INFO     Connecting to receiver number: 42
+08/10/2024 09:26:14 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 2A 00 00 00 00 00 00 00 02 00 08 45 E2 56
+08/10/2024 09:26:14 display_status INFO     =============================================================================================================================================
+08/10/2024 09:26:14 display_status INFO     Connecting to receiver number: 43
+08/10/2024 09:26:15 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 2B 00 00 00 00 00 00 00 02 00 08 45 E3 56
+08/10/2024 09:26:15 display_status INFO     =============================================================================================================================================
+08/10/2024 09:26:15 display_status INFO     Connecting to receiver number: 44
+08/10/2024 09:26:15 display_status DEBUG    Received data: AA 55 01 15 00 FE 01 00 2C 00 00 00 00 00 00 00 02 00 08 45 E5 56
+08/10/2024 09:26:15 display_status ERROR    Command failed due to time out (time out on trying to access devices connected to a sending card)
+08/10/2024 09:26:15 display_status INFO     EXIT CODE: 0, NO of receiver cards 44
+08/10/2024 09:31:39 display_status INFO     *********************************************************************************************************************************************
+08/10/2024 09:31:39 display_status INFO     5Eyes - Starting Display Status Checks
+08/10/2024 09:31:39 display_status INFO     Loading config.json
+08/10/2024 09:31:39 display_status INFO     Version: 1.0.5, Baudrate: 1048576, Sleep Time: 0.6, Flash Timeout: 15
+08/10/2024 09:31:39 display_status INFO     Reading from status.json
+08/10/2024 09:31:39 display_status INFO     Setting up serial port
+08/10/2024 09:31:39 display_status INFO     Found 2 serial ports
+08/10/2024 09:31:39 display_status INFO     Searching sender card on port: COM5
+08/10/2024 09:31:39 display_status INFO     COM5 opened
+08/10/2024 09:31:39 display_status DEBUG    Sending command: 55 AA 00 AA FE 00 00 00 00 00 00 00 02 00 00 00 02 00 01 57
+08/10/2024 09:31:45 display_status INFO     COM5 closed
+08/10/2024 09:31:45 display_status INFO     Searching sender card on port: COM6
+08/10/2024 09:31:45 display_status INFO     COM6 opened
+08/10/2024 09:31:45 display_status DEBUG    Sending command: 55 AA 00 AA FE 00 00 00 00 00 00 00 02 00 00 00 02 00 01 57
+08/10/2024 09:31:45 display_status DEBUG    Received data:AA 55 00 AA 00 FE 00 00 00 00 00 00 02 00 00 00 02 00 01 11 13 57
+08/10/2024 09:31:45 display_status INFO     Device found on port: COM6 | USB Serial Port (COM6) | USB VID:PID=0403:6001 SER=5
+08/10/2024 09:31:50 display_status INFO     COM6 closed
+08/10/2024 09:31:50 display_status INFO     Found 1 device(s)
+08/10/2024 09:31:50 display_status INFO     *******************    DEVICE 0   *******************
+08/10/2024 09:31:50 display_status INFO     Connecting to device on COM6
+08/10/2024 09:31:50 display_status INFO     Opened device on port: COM6
+08/10/2024 09:31:50 display_status INFO     =============================================================================================================================================
+08/10/2024 09:31:50 display_status INFO     Connecting to receiver number: 1
+08/10/2024 09:31:50 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 01 00 00 00 00 00 00 00 02 00 08 45 B9 56
+08/10/2024 09:31:50 display_status INFO     =============================================================================================================================================
+08/10/2024 09:31:50 display_status INFO     Connecting to receiver number: 2
+08/10/2024 09:31:51 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 02 00 00 00 00 00 00 00 02 00 08 45 BA 56
+08/10/2024 09:31:51 display_status INFO     =============================================================================================================================================
+08/10/2024 09:31:51 display_status INFO     Connecting to receiver number: 3
+08/10/2024 09:31:52 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 03 00 00 00 00 00 00 00 02 00 08 45 BB 56
+08/10/2024 09:31:52 display_status INFO     =============================================================================================================================================
+08/10/2024 09:31:52 display_status INFO     Connecting to receiver number: 4
+08/10/2024 09:31:52 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 04 00 00 00 00 00 00 00 02 00 08 45 BC 56
+08/10/2024 09:31:52 display_status INFO     =============================================================================================================================================
+08/10/2024 09:31:52 display_status INFO     Connecting to receiver number: 5
+08/10/2024 09:31:53 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 05 00 00 00 00 00 00 00 02 00 08 45 BD 56
+08/10/2024 09:31:53 display_status INFO     =============================================================================================================================================
+08/10/2024 09:31:53 display_status INFO     Connecting to receiver number: 6
+08/10/2024 09:31:53 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 06 00 00 00 00 00 00 00 02 00 08 45 BE 56
+08/10/2024 09:31:53 display_status INFO     =============================================================================================================================================
+08/10/2024 09:31:53 display_status INFO     Connecting to receiver number: 7
+08/10/2024 09:31:54 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 07 00 00 00 00 00 00 00 02 00 08 45 BF 56
+08/10/2024 09:31:54 display_status INFO     =============================================================================================================================================
+08/10/2024 09:31:54 display_status INFO     Connecting to receiver number: 8
+08/10/2024 09:31:55 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 08 00 00 00 00 00 00 00 02 00 08 45 C0 56
+08/10/2024 09:31:55 display_status INFO     =============================================================================================================================================
+08/10/2024 09:31:55 display_status INFO     Connecting to receiver number: 9
+08/10/2024 09:31:55 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 09 00 00 00 00 00 00 00 02 00 08 45 C1 56
+08/10/2024 09:31:55 display_status INFO     =============================================================================================================================================
+08/10/2024 09:31:55 display_status INFO     Connecting to receiver number: 10
+08/10/2024 09:31:56 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 0A 00 00 00 00 00 00 00 02 00 08 45 C2 56
+08/10/2024 09:31:56 display_status INFO     =============================================================================================================================================
+08/10/2024 09:31:56 display_status INFO     Connecting to receiver number: 11
+08/10/2024 09:31:56 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 0B 00 00 00 00 00 00 00 02 00 08 45 C3 56
+08/10/2024 09:31:56 display_status INFO     =============================================================================================================================================
+08/10/2024 09:31:56 display_status INFO     Connecting to receiver number: 12
+08/10/2024 09:31:57 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 0C 00 00 00 00 00 00 00 02 00 08 45 C4 56
+08/10/2024 09:31:57 display_status INFO     =============================================================================================================================================
+08/10/2024 09:31:57 display_status INFO     Connecting to receiver number: 13
+08/10/2024 09:31:58 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 0D 00 00 00 00 00 00 00 02 00 08 45 C5 56
+08/10/2024 09:31:58 display_status INFO     =============================================================================================================================================
+08/10/2024 09:31:58 display_status INFO     Connecting to receiver number: 14
+08/10/2024 09:31:58 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 0E 00 00 00 00 00 00 00 02 00 08 45 C6 56
+08/10/2024 09:31:58 display_status INFO     =============================================================================================================================================
+08/10/2024 09:31:58 display_status INFO     Connecting to receiver number: 15
+08/10/2024 09:31:59 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 0F 00 00 00 00 00 00 00 02 00 08 45 C7 56
+08/10/2024 09:31:59 display_status INFO     =============================================================================================================================================
+08/10/2024 09:31:59 display_status INFO     Connecting to receiver number: 16
+08/10/2024 09:31:59 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 10 00 00 00 00 00 00 00 02 00 08 45 C8 56
+08/10/2024 09:31:59 display_status INFO     =============================================================================================================================================
+08/10/2024 09:31:59 display_status INFO     Connecting to receiver number: 17
+08/10/2024 09:32:00 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 11 00 00 00 00 00 00 00 02 00 08 45 C9 56
+08/10/2024 09:32:00 display_status INFO     =============================================================================================================================================
+08/10/2024 09:32:00 display_status INFO     Connecting to receiver number: 18
+08/10/2024 09:32:01 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 12 00 00 00 00 00 00 00 02 00 08 45 CA 56
+08/10/2024 09:32:01 display_status INFO     =============================================================================================================================================
+08/10/2024 09:32:01 display_status INFO     Connecting to receiver number: 19
+08/10/2024 09:32:01 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 13 00 00 00 00 00 00 00 02 00 08 45 CB 56
+08/10/2024 09:32:01 display_status INFO     =============================================================================================================================================
+08/10/2024 09:32:01 display_status INFO     Connecting to receiver number: 20
+08/10/2024 09:32:02 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 14 00 00 00 00 00 00 00 02 00 08 45 CC 56
+08/10/2024 09:32:02 display_status INFO     =============================================================================================================================================
+08/10/2024 09:32:02 display_status INFO     Connecting to receiver number: 21
+08/10/2024 09:32:02 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 15 00 00 00 00 00 00 00 02 00 08 45 CD 56
+08/10/2024 09:32:02 display_status INFO     =============================================================================================================================================
+08/10/2024 09:32:02 display_status INFO     Connecting to receiver number: 22
+08/10/2024 09:32:03 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 16 00 00 00 00 00 00 00 02 00 08 45 CE 56
+08/10/2024 09:32:03 display_status INFO     =============================================================================================================================================
+08/10/2024 09:32:03 display_status INFO     Connecting to receiver number: 23
+08/10/2024 09:32:04 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 17 00 00 00 00 00 00 00 02 00 08 45 CF 56
+08/10/2024 09:32:04 display_status INFO     =============================================================================================================================================
+08/10/2024 09:32:04 display_status INFO     Connecting to receiver number: 24
+08/10/2024 09:32:04 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 18 00 00 00 00 00 00 00 02 00 08 45 D0 56
+08/10/2024 09:32:04 display_status INFO     =============================================================================================================================================
+08/10/2024 09:32:04 display_status INFO     Connecting to receiver number: 25
+08/10/2024 09:32:05 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 19 00 00 00 00 00 00 00 02 00 08 45 D1 56
+08/10/2024 09:32:05 display_status INFO     =============================================================================================================================================
+08/10/2024 09:32:05 display_status INFO     Connecting to receiver number: 26
+08/10/2024 09:32:05 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 1A 00 00 00 00 00 00 00 02 00 08 45 D2 56
+08/10/2024 09:32:05 display_status INFO     =============================================================================================================================================
+08/10/2024 09:32:05 display_status INFO     Connecting to receiver number: 27
+08/10/2024 09:32:06 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 1B 00 00 00 00 00 00 00 02 00 08 45 D3 56
+08/10/2024 09:32:06 display_status INFO     =============================================================================================================================================
+08/10/2024 09:32:06 display_status INFO     Connecting to receiver number: 28
+08/10/2024 09:32:07 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 1C 00 00 00 00 00 00 00 02 00 08 45 D4 56
+08/10/2024 09:32:07 display_status INFO     =============================================================================================================================================
+08/10/2024 09:32:07 display_status INFO     Connecting to receiver number: 29
+08/10/2024 09:32:07 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 1D 00 00 00 00 00 00 00 02 00 08 45 D5 56
+08/10/2024 09:32:07 display_status INFO     =============================================================================================================================================
+08/10/2024 09:32:07 display_status INFO     Connecting to receiver number: 30
+08/10/2024 09:32:08 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 1E 00 00 00 00 00 00 00 02 00 08 45 D6 56
+08/10/2024 09:32:08 display_status INFO     =============================================================================================================================================
+08/10/2024 09:32:08 display_status INFO     Connecting to receiver number: 31
+08/10/2024 09:32:08 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 1F 00 00 00 00 00 00 00 02 00 08 45 D7 56
+08/10/2024 09:32:08 display_status INFO     =============================================================================================================================================
+08/10/2024 09:32:08 display_status INFO     Connecting to receiver number: 32
+08/10/2024 09:32:09 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 20 00 00 00 00 00 00 00 02 00 08 45 D8 56
+08/10/2024 09:32:09 display_status INFO     =============================================================================================================================================
+08/10/2024 09:32:09 display_status INFO     Connecting to receiver number: 33
+08/10/2024 09:32:10 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 21 00 00 00 00 00 00 00 02 00 08 45 D9 56
+08/10/2024 09:32:10 display_status INFO     =============================================================================================================================================
+08/10/2024 09:32:10 display_status INFO     Connecting to receiver number: 34
+08/10/2024 09:32:10 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 22 00 00 00 00 00 00 00 02 00 08 45 DA 56
+08/10/2024 09:32:10 display_status INFO     =============================================================================================================================================
+08/10/2024 09:32:10 display_status INFO     Connecting to receiver number: 35
+08/10/2024 09:32:11 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 23 00 00 00 00 00 00 00 02 00 08 45 DB 56
+08/10/2024 09:32:11 display_status INFO     =============================================================================================================================================
+08/10/2024 09:32:11 display_status INFO     Connecting to receiver number: 36
+08/10/2024 09:32:11 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 24 00 00 00 00 00 00 00 02 00 08 45 DC 56
+08/10/2024 09:32:11 display_status INFO     =============================================================================================================================================
+08/10/2024 09:32:11 display_status INFO     Connecting to receiver number: 37
+08/10/2024 09:32:12 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 25 00 00 00 00 00 00 00 02 00 08 45 DD 56
+08/10/2024 09:32:12 display_status INFO     =============================================================================================================================================
+08/10/2024 09:32:12 display_status INFO     Connecting to receiver number: 38
+08/10/2024 09:32:13 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 26 00 00 00 00 00 00 00 02 00 08 45 DE 56
+08/10/2024 09:32:13 display_status INFO     =============================================================================================================================================
+08/10/2024 09:32:13 display_status INFO     Connecting to receiver number: 39
+08/10/2024 09:32:13 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 27 00 00 00 00 00 00 00 02 00 08 45 DF 56
+08/10/2024 09:32:13 display_status INFO     =============================================================================================================================================
+08/10/2024 09:32:13 display_status INFO     Connecting to receiver number: 40
+08/10/2024 09:32:14 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 28 00 00 00 00 00 00 00 02 00 08 45 E0 56
+08/10/2024 09:32:14 display_status INFO     =============================================================================================================================================
+08/10/2024 09:32:14 display_status INFO     Connecting to receiver number: 41
+08/10/2024 09:32:14 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 29 00 00 00 00 00 00 00 02 00 08 45 E1 56
+08/10/2024 09:32:14 display_status INFO     =============================================================================================================================================
+08/10/2024 09:32:14 display_status INFO     Connecting to receiver number: 42
+08/10/2024 09:32:15 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 2A 00 00 00 00 00 00 00 02 00 08 45 E2 56
+08/10/2024 09:32:15 display_status INFO     =============================================================================================================================================
+08/10/2024 09:32:15 display_status INFO     Connecting to receiver number: 43
+08/10/2024 09:32:16 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 2B 00 00 00 00 00 00 00 02 00 08 45 E3 56
+08/10/2024 09:32:16 display_status INFO     =============================================================================================================================================
+08/10/2024 09:32:16 display_status INFO     Connecting to receiver number: 44
+08/10/2024 09:32:16 display_status DEBUG    Received data: AA 55 01 15 00 FE 01 00 2C 00 00 00 00 00 00 00 02 00 08 45 E5 56
+08/10/2024 09:32:16 display_status ERROR    Command failed due to time out (time out on trying to access devices connected to a sending card)
+08/10/2024 09:32:16 display_status INFO     EXIT CODE: 0, NO of receiver cards 44
+08/10/2024 09:32:18 display_status INFO     *********************************************************************************************************************************************
+08/10/2024 09:32:18 display_status INFO     5Eyes - Starting Display Status Checks
+08/10/2024 09:32:18 display_status INFO     Loading config.json
+08/10/2024 09:32:18 display_status INFO     Version: 1.0.5, Baudrate: 1048576, Sleep Time: 0.6, Flash Timeout: 15
+08/10/2024 09:32:18 display_status INFO     Reading from status.json
+08/10/2024 09:32:18 display_status INFO     Setting up serial port
+08/10/2024 09:32:18 display_status INFO     Found 2 serial ports
+08/10/2024 09:32:18 display_status INFO     Searching sender card on port: COM5
+08/10/2024 09:32:18 display_status INFO     COM5 opened
+08/10/2024 09:32:18 display_status DEBUG    Sending command: 55 AA 00 AA FE 00 00 00 00 00 00 00 02 00 00 00 02 00 01 57
+08/10/2024 09:32:23 display_status INFO     COM5 closed
+08/10/2024 09:32:23 display_status INFO     Searching sender card on port: COM6
+08/10/2024 09:32:23 display_status INFO     COM6 opened
+08/10/2024 09:32:23 display_status DEBUG    Sending command: 55 AA 00 AA FE 00 00 00 00 00 00 00 02 00 00 00 02 00 01 57
+08/10/2024 09:32:23 display_status DEBUG    Received data:AA 55 00 AA 00 FE 00 00 00 00 00 00 02 00 00 00 02 00 01 11 13 57
+08/10/2024 09:32:23 display_status INFO     Device found on port: COM6 | USB Serial Port (COM6) | USB VID:PID=0403:6001 SER=5
+08/10/2024 09:32:28 display_status INFO     COM6 closed
+08/10/2024 09:32:28 display_status INFO     Found 1 device(s)
+08/10/2024 09:32:28 display_status INFO     *******************    DEVICE 0   *******************
+08/10/2024 09:32:28 display_status INFO     Connecting to device on COM6
+08/10/2024 09:32:28 display_status INFO     Opened device on port: COM6
+08/10/2024 09:32:28 display_status INFO     =============================================================================================================================================
+08/10/2024 09:32:28 display_status INFO     Connecting to receiver number: 1
+08/10/2024 09:32:29 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 01 00 00 00 00 00 00 00 02 00 08 45 B9 56
+08/10/2024 09:32:29 display_status INFO     =============================================================================================================================================
+08/10/2024 09:32:29 display_status INFO     Connecting to receiver number: 2
+08/10/2024 09:32:30 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 02 00 00 00 00 00 00 00 02 00 08 45 BA 56
+08/10/2024 09:32:30 display_status INFO     =============================================================================================================================================
+08/10/2024 09:32:30 display_status INFO     Connecting to receiver number: 3
+08/10/2024 09:32:30 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 03 00 00 00 00 00 00 00 02 00 08 45 BB 56
+08/10/2024 09:32:30 display_status INFO     =============================================================================================================================================
+08/10/2024 09:32:30 display_status INFO     Connecting to receiver number: 4
+08/10/2024 09:32:31 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 04 00 00 00 00 00 00 00 02 00 08 45 BC 56
+08/10/2024 09:32:31 display_status INFO     =============================================================================================================================================
+08/10/2024 09:32:31 display_status INFO     Connecting to receiver number: 5
+08/10/2024 09:32:31 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 05 00 00 00 00 00 00 00 02 00 08 45 BD 56
+08/10/2024 09:32:31 display_status INFO     =============================================================================================================================================
+08/10/2024 09:32:31 display_status INFO     Connecting to receiver number: 6
+08/10/2024 09:32:32 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 06 00 00 00 00 00 00 00 02 00 08 45 BE 56
+08/10/2024 09:32:32 display_status INFO     =============================================================================================================================================
+08/10/2024 09:32:32 display_status INFO     Connecting to receiver number: 7
+08/10/2024 09:32:33 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 07 00 00 00 00 00 00 00 02 00 08 45 BF 56
+08/10/2024 09:32:33 display_status INFO     =============================================================================================================================================
+08/10/2024 09:32:33 display_status INFO     Connecting to receiver number: 8
+08/10/2024 09:32:33 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 08 00 00 00 00 00 00 00 02 00 08 45 C0 56
+08/10/2024 09:32:33 display_status INFO     =============================================================================================================================================
+08/10/2024 09:32:33 display_status INFO     Connecting to receiver number: 9
+08/10/2024 09:32:34 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 09 00 00 00 00 00 00 00 02 00 08 45 C1 56
+08/10/2024 09:32:34 display_status INFO     =============================================================================================================================================
+08/10/2024 09:32:34 display_status INFO     Connecting to receiver number: 10
+08/10/2024 09:32:34 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 0A 00 00 00 00 00 00 00 02 00 08 45 C2 56
+08/10/2024 09:32:34 display_status INFO     =============================================================================================================================================
+08/10/2024 09:32:34 display_status INFO     Connecting to receiver number: 11
+08/10/2024 09:32:35 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 0B 00 00 00 00 00 00 00 02 00 08 45 C3 56
+08/10/2024 09:32:35 display_status INFO     =============================================================================================================================================
+08/10/2024 09:32:35 display_status INFO     Connecting to receiver number: 12
+08/10/2024 09:32:36 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 0C 00 00 00 00 00 00 00 02 00 08 45 C4 56
+08/10/2024 09:32:36 display_status INFO     =============================================================================================================================================
+08/10/2024 09:32:36 display_status INFO     Connecting to receiver number: 13
+08/10/2024 09:32:36 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 0D 00 00 00 00 00 00 00 02 00 08 45 C5 56
+08/10/2024 09:32:36 display_status INFO     =============================================================================================================================================
+08/10/2024 09:32:36 display_status INFO     Connecting to receiver number: 14
+08/10/2024 09:32:37 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 0E 00 00 00 00 00 00 00 02 00 08 45 C6 56
+08/10/2024 09:32:37 display_status INFO     =============================================================================================================================================
+08/10/2024 09:32:37 display_status INFO     Connecting to receiver number: 15
+08/10/2024 09:32:37 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 0F 00 00 00 00 00 00 00 02 00 08 45 C7 56
+08/10/2024 09:32:37 display_status INFO     =============================================================================================================================================
+08/10/2024 09:32:37 display_status INFO     Connecting to receiver number: 16
+08/10/2024 09:32:38 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 10 00 00 00 00 00 00 00 02 00 08 45 C8 56
+08/10/2024 09:32:38 display_status INFO     =============================================================================================================================================
+08/10/2024 09:32:38 display_status INFO     Connecting to receiver number: 17
+08/10/2024 09:32:39 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 11 00 00 00 00 00 00 00 02 00 08 45 C9 56
+08/10/2024 09:32:39 display_status INFO     =============================================================================================================================================
+08/10/2024 09:32:39 display_status INFO     Connecting to receiver number: 18
+08/10/2024 09:32:39 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 12 00 00 00 00 00 00 00 02 00 08 45 CA 56
+08/10/2024 09:32:39 display_status INFO     =============================================================================================================================================
+08/10/2024 09:32:39 display_status INFO     Connecting to receiver number: 19
+08/10/2024 09:32:40 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 13 00 00 00 00 00 00 00 02 00 08 45 CB 56
+08/10/2024 09:32:40 display_status INFO     =============================================================================================================================================
+08/10/2024 09:32:40 display_status INFO     Connecting to receiver number: 20
+08/10/2024 09:32:40 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 14 00 00 00 00 00 00 00 02 00 08 45 CC 56
+08/10/2024 09:32:40 display_status INFO     =============================================================================================================================================
+08/10/2024 09:32:40 display_status INFO     Connecting to receiver number: 21
+08/10/2024 09:32:41 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 15 00 00 00 00 00 00 00 02 00 08 45 CD 56
+08/10/2024 09:32:41 display_status INFO     =============================================================================================================================================
+08/10/2024 09:32:41 display_status INFO     Connecting to receiver number: 22
+08/10/2024 09:32:42 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 16 00 00 00 00 00 00 00 02 00 08 45 CE 56
+08/10/2024 09:32:42 display_status INFO     =============================================================================================================================================
+08/10/2024 09:32:42 display_status INFO     Connecting to receiver number: 23
+08/10/2024 09:32:42 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 17 00 00 00 00 00 00 00 02 00 08 45 CF 56
+08/10/2024 09:32:42 display_status INFO     =============================================================================================================================================
+08/10/2024 09:32:42 display_status INFO     Connecting to receiver number: 24
+08/10/2024 09:32:43 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 18 00 00 00 00 00 00 00 02 00 08 45 D0 56
+08/10/2024 09:32:43 display_status INFO     =============================================================================================================================================
+08/10/2024 09:32:43 display_status INFO     Connecting to receiver number: 25
+08/10/2024 09:32:43 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 19 00 00 00 00 00 00 00 02 00 08 45 D1 56
+08/10/2024 09:32:43 display_status INFO     =============================================================================================================================================
+08/10/2024 09:32:43 display_status INFO     Connecting to receiver number: 26
+08/10/2024 09:32:44 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 1A 00 00 00 00 00 00 00 02 00 08 45 D2 56
+08/10/2024 09:32:44 display_status INFO     =============================================================================================================================================
+08/10/2024 09:32:44 display_status INFO     Connecting to receiver number: 27
+08/10/2024 09:32:45 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 1B 00 00 00 00 00 00 00 02 00 08 45 D3 56
+08/10/2024 09:32:45 display_status INFO     =============================================================================================================================================
+08/10/2024 09:32:45 display_status INFO     Connecting to receiver number: 28
+08/10/2024 09:32:45 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 1C 00 00 00 00 00 00 00 02 00 08 45 D4 56
+08/10/2024 09:32:45 display_status INFO     =============================================================================================================================================
+08/10/2024 09:32:45 display_status INFO     Connecting to receiver number: 29
+08/10/2024 09:32:46 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 1D 00 00 00 00 00 00 00 02 00 08 45 D5 56
+08/10/2024 09:32:46 display_status INFO     =============================================================================================================================================
+08/10/2024 09:32:46 display_status INFO     Connecting to receiver number: 30
+08/10/2024 09:32:46 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 1E 00 00 00 00 00 00 00 02 00 08 45 D6 56
+08/10/2024 09:32:46 display_status INFO     =============================================================================================================================================
+08/10/2024 09:32:46 display_status INFO     Connecting to receiver number: 31
+08/10/2024 09:32:47 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 1F 00 00 00 00 00 00 00 02 00 08 45 D7 56
+08/10/2024 09:32:47 display_status INFO     =============================================================================================================================================
+08/10/2024 09:32:47 display_status INFO     Connecting to receiver number: 32
+08/10/2024 09:32:48 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 20 00 00 00 00 00 00 00 02 00 08 45 D8 56
+08/10/2024 09:32:48 display_status INFO     =============================================================================================================================================
+08/10/2024 09:32:48 display_status INFO     Connecting to receiver number: 33
+08/10/2024 09:32:48 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 21 00 00 00 00 00 00 00 02 00 08 45 D9 56
+08/10/2024 09:32:48 display_status INFO     =============================================================================================================================================
+08/10/2024 09:32:48 display_status INFO     Connecting to receiver number: 34
+08/10/2024 09:32:49 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 22 00 00 00 00 00 00 00 02 00 08 45 DA 56
+08/10/2024 09:32:49 display_status INFO     =============================================================================================================================================
+08/10/2024 09:32:49 display_status INFO     Connecting to receiver number: 35
+08/10/2024 09:32:49 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 23 00 00 00 00 00 00 00 02 00 08 45 DB 56
+08/10/2024 09:32:49 display_status INFO     =============================================================================================================================================
+08/10/2024 09:32:49 display_status INFO     Connecting to receiver number: 36
+08/10/2024 09:32:50 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 24 00 00 00 00 00 00 00 02 00 08 45 DC 56
+08/10/2024 09:32:50 display_status INFO     =============================================================================================================================================
+08/10/2024 09:32:50 display_status INFO     Connecting to receiver number: 37
+08/10/2024 09:32:51 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 25 00 00 00 00 00 00 00 02 00 08 45 DD 56
+08/10/2024 09:32:51 display_status INFO     =============================================================================================================================================
+08/10/2024 09:32:51 display_status INFO     Connecting to receiver number: 38
+08/10/2024 09:32:51 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 26 00 00 00 00 00 00 00 02 00 08 45 DE 56
+08/10/2024 09:32:51 display_status INFO     =============================================================================================================================================
+08/10/2024 09:32:51 display_status INFO     Connecting to receiver number: 39
+08/10/2024 09:32:52 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 27 00 00 00 00 00 00 00 02 00 08 45 DF 56
+08/10/2024 09:32:52 display_status INFO     =============================================================================================================================================
+08/10/2024 09:32:52 display_status INFO     Connecting to receiver number: 40
+08/10/2024 09:32:52 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 28 00 00 00 00 00 00 00 02 00 08 45 E0 56
+08/10/2024 09:32:52 display_status INFO     =============================================================================================================================================
+08/10/2024 09:32:52 display_status INFO     Connecting to receiver number: 41
+08/10/2024 09:32:53 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 29 00 00 00 00 00 00 00 02 00 08 45 E1 56
+08/10/2024 09:32:53 display_status INFO     =============================================================================================================================================
+08/10/2024 09:32:53 display_status INFO     Connecting to receiver number: 42
+08/10/2024 09:32:54 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 2A 00 00 00 00 00 00 00 02 00 08 45 E2 56
+08/10/2024 09:32:54 display_status INFO     =============================================================================================================================================
+08/10/2024 09:32:54 display_status INFO     Connecting to receiver number: 43
+08/10/2024 09:32:54 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 2B 00 00 00 00 00 00 00 02 00 08 45 E3 56
+08/10/2024 09:32:54 display_status INFO     =============================================================================================================================================
+08/10/2024 09:32:54 display_status INFO     Connecting to receiver number: 44
+08/10/2024 09:32:55 display_status DEBUG    Received data: AA 55 01 15 00 FE 01 00 2C 00 00 00 00 00 00 00 02 00 08 45 E5 56
+08/10/2024 09:32:55 display_status ERROR    Command failed due to time out (time out on trying to access devices connected to a sending card)
+08/10/2024 09:32:55 display_status INFO     EXIT CODE: 0, NO of receiver cards 44
+08/10/2024 09:47:28 display_status INFO     *********************************************************************************************************************************************
+08/10/2024 09:47:28 display_status INFO     5Eyes - Starting Display Status Checks
+08/10/2024 09:47:28 display_status INFO     Loading config.json
+08/10/2024 09:47:28 display_status INFO     Version: 1.0.5, Baudrate: 1048576, Sleep Time: 0.6, Flash Timeout: 15
+08/10/2024 09:47:28 display_status INFO     Reading from status.json
+08/10/2024 09:47:28 display_status INFO     Setting up serial port
+08/10/2024 09:47:28 display_status INFO     Found 2 serial ports
+08/10/2024 09:47:28 display_status INFO     Searching sender card on port: COM5
+08/10/2024 09:47:28 display_status INFO     COM5 opened
+08/10/2024 09:47:28 display_status DEBUG    Sending command: 55 AA 00 AA FE 00 00 00 00 00 00 00 02 00 00 00 02 00 01 57
+08/10/2024 09:47:33 display_status INFO     COM5 closed
+08/10/2024 09:47:33 display_status INFO     Searching sender card on port: COM6
+08/10/2024 09:47:33 display_status INFO     COM6 opened
+08/10/2024 09:47:33 display_status DEBUG    Sending command: 55 AA 00 AA FE 00 00 00 00 00 00 00 02 00 00 00 02 00 01 57
+08/10/2024 09:47:33 display_status ERROR    Error communicating with device: list index out of range
+08/10/2024 09:47:33 display_status INFO     COM6 closed
+08/10/2024 09:47:33 display_status INFO     Found 0 device(s)
+08/10/2024 09:47:33 display_status INFO     EXIT CODE: 2, NO DEVICE - make sure a valid controller is connected, that the correct baudrate is defined in config.json and ensure the NOVA LCT is not running on the host system 
+This can also mean that you don't run the tool as administrator
+08/10/2024 09:49:42 display_status INFO     *********************************************************************************************************************************************
+08/10/2024 09:49:42 display_status INFO     5Eyes - Starting Display Status Checks
+08/10/2024 09:49:42 display_status INFO     Loading config.json
+08/10/2024 09:49:42 display_status INFO     Version: 1.0.5, Baudrate: 1048576, Sleep Time: 0.6, Flash Timeout: 15
+08/10/2024 09:49:42 display_status INFO     Reading from status.json
+08/10/2024 09:49:42 display_status INFO     Setting up serial port
+08/10/2024 09:49:42 display_status INFO     Found 2 serial ports
+08/10/2024 09:49:42 display_status INFO     Searching sender card on port: COM5
+08/10/2024 09:49:42 display_status INFO     COM5 opened
+08/10/2024 09:49:42 display_status DEBUG    Sending command: 55 AA 00 AA FE 00 00 00 00 00 00 00 02 00 00 00 02 00 01 57
+08/10/2024 09:49:47 display_status INFO     COM5 closed
+08/10/2024 09:49:47 display_status INFO     Searching sender card on port: COM6
+08/10/2024 09:49:47 display_status INFO     COM6 opened
+08/10/2024 09:49:47 display_status DEBUG    Sending command: 55 AA 00 AA FE 00 00 00 00 00 00 00 02 00 00 00 02 00 01 57
+08/10/2024 09:49:47 display_status DEBUG    Received data:AA 55 00 AA 00 FE 00 00 00 00 00 00 02 00 00 00 02 00 01 11 13 57
+08/10/2024 09:49:47 display_status INFO     Device found on port: COM6 | USB Serial Port (COM6) | USB VID:PID=0403:6001 SER=5
+08/10/2024 09:49:52 display_status INFO     COM6 closed
+08/10/2024 09:49:52 display_status INFO     Found 1 device(s)
+08/10/2024 09:49:52 display_status INFO     *******************    DEVICE 0   *******************
+08/10/2024 09:49:52 display_status INFO     Connecting to device on COM6
+08/10/2024 09:49:52 display_status INFO     Opened device on port: COM6
+08/10/2024 09:49:52 display_status INFO     =============================================================================================================================================
+08/10/2024 09:49:52 display_status INFO     Connecting to receiver number: 1
+08/10/2024 09:49:53 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 01 00 00 00 00 00 00 00 02 00 08 45 B9 56
+08/10/2024 09:49:53 display_status INFO     =============================================================================================================================================
+08/10/2024 09:49:53 display_status INFO     Connecting to receiver number: 2
+08/10/2024 09:49:54 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 02 00 00 00 00 00 00 00 02 00 08 45 BA 56
+08/10/2024 09:49:54 display_status INFO     =============================================================================================================================================
+08/10/2024 09:49:54 display_status INFO     Connecting to receiver number: 3
+08/10/2024 09:49:54 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 03 00 00 00 00 00 00 00 02 00 08 45 BB 56
+08/10/2024 09:49:54 display_status INFO     =============================================================================================================================================
+08/10/2024 09:49:54 display_status INFO     Connecting to receiver number: 4
+08/10/2024 09:49:55 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 04 00 00 00 00 00 00 00 02 00 08 45 BC 56
+08/10/2024 09:49:55 display_status INFO     =============================================================================================================================================
+08/10/2024 09:49:55 display_status INFO     Connecting to receiver number: 5
+08/10/2024 09:49:55 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 05 00 00 00 00 00 00 00 02 00 08 45 BD 56
+08/10/2024 09:49:55 display_status INFO     =============================================================================================================================================
+08/10/2024 09:49:55 display_status INFO     Connecting to receiver number: 6
+08/10/2024 09:49:56 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 06 00 00 00 00 00 00 00 02 00 08 45 BE 56
+08/10/2024 09:49:56 display_status INFO     =============================================================================================================================================
+08/10/2024 09:49:56 display_status INFO     Connecting to receiver number: 7
+08/10/2024 09:49:57 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 07 00 00 00 00 00 00 00 02 00 08 45 BF 56
+08/10/2024 09:49:57 display_status INFO     =============================================================================================================================================
+08/10/2024 09:49:57 display_status INFO     Connecting to receiver number: 8
+08/10/2024 09:49:57 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 08 00 00 00 00 00 00 00 02 00 08 45 C0 56
+08/10/2024 09:49:57 display_status INFO     =============================================================================================================================================
+08/10/2024 09:49:57 display_status INFO     Connecting to receiver number: 9
+08/10/2024 09:49:58 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 09 00 00 00 00 00 00 00 02 00 08 45 C1 56
+08/10/2024 09:49:58 display_status INFO     =============================================================================================================================================
+08/10/2024 09:49:58 display_status INFO     Connecting to receiver number: 10
+08/10/2024 09:49:58 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 0A 00 00 00 00 00 00 00 02 00 08 45 C2 56
+08/10/2024 09:49:58 display_status INFO     =============================================================================================================================================
+08/10/2024 09:49:58 display_status INFO     Connecting to receiver number: 11
+08/10/2024 09:49:59 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 0B 00 00 00 00 00 00 00 02 00 08 45 C3 56
+08/10/2024 09:49:59 display_status INFO     =============================================================================================================================================
+08/10/2024 09:49:59 display_status INFO     Connecting to receiver number: 12
+08/10/2024 09:50:00 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 0C 00 00 00 00 00 00 00 02 00 08 45 C4 56
+08/10/2024 09:50:00 display_status INFO     =============================================================================================================================================
+08/10/2024 09:50:00 display_status INFO     Connecting to receiver number: 13
+08/10/2024 09:50:00 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 0D 00 00 00 00 00 00 00 02 00 08 45 C5 56
+08/10/2024 09:50:00 display_status INFO     =============================================================================================================================================
+08/10/2024 09:50:00 display_status INFO     Connecting to receiver number: 14
+08/10/2024 09:50:01 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 0E 00 00 00 00 00 00 00 02 00 08 45 C6 56
+08/10/2024 09:50:01 display_status INFO     =============================================================================================================================================
+08/10/2024 09:50:01 display_status INFO     Connecting to receiver number: 15
+08/10/2024 09:50:01 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 0F 00 00 00 00 00 00 00 02 00 08 45 C7 56
+08/10/2024 09:50:01 display_status INFO     =============================================================================================================================================
+08/10/2024 09:50:01 display_status INFO     Connecting to receiver number: 16
+08/10/2024 09:50:02 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 10 00 00 00 00 00 00 00 02 00 08 45 C8 56
+08/10/2024 09:50:02 display_status INFO     =============================================================================================================================================
+08/10/2024 09:50:02 display_status INFO     Connecting to receiver number: 17
+08/10/2024 09:50:03 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 11 00 00 00 00 00 00 00 02 00 08 45 C9 56
+08/10/2024 09:50:03 display_status INFO     =============================================================================================================================================
+08/10/2024 09:50:03 display_status INFO     Connecting to receiver number: 18
+08/10/2024 09:50:03 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 12 00 00 00 00 00 00 00 02 00 08 45 CA 56
+08/10/2024 09:50:03 display_status INFO     =============================================================================================================================================
+08/10/2024 09:50:03 display_status INFO     Connecting to receiver number: 19
+08/10/2024 09:50:04 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 13 00 00 00 00 00 00 00 02 00 08 45 CB 56
+08/10/2024 09:50:04 display_status INFO     =============================================================================================================================================
+08/10/2024 09:50:04 display_status INFO     Connecting to receiver number: 20
+08/10/2024 09:50:04 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 14 00 00 00 00 00 00 00 02 00 08 45 CC 56
+08/10/2024 09:50:04 display_status INFO     =============================================================================================================================================
+08/10/2024 09:50:04 display_status INFO     Connecting to receiver number: 21
+08/10/2024 09:50:05 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 15 00 00 00 00 00 00 00 02 00 08 45 CD 56
+08/10/2024 09:50:05 display_status INFO     =============================================================================================================================================
+08/10/2024 09:50:05 display_status INFO     Connecting to receiver number: 22
+08/10/2024 09:50:06 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 16 00 00 00 00 00 00 00 02 00 08 45 CE 56
+08/10/2024 09:50:06 display_status INFO     =============================================================================================================================================
+08/10/2024 09:50:06 display_status INFO     Connecting to receiver number: 23
+08/10/2024 09:50:06 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 17 00 00 00 00 00 00 00 02 00 08 45 CF 56
+08/10/2024 09:50:06 display_status INFO     =============================================================================================================================================
+08/10/2024 09:50:06 display_status INFO     Connecting to receiver number: 24
+08/10/2024 09:50:07 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 18 00 00 00 00 00 00 00 02 00 08 45 D0 56
+08/10/2024 09:50:07 display_status INFO     =============================================================================================================================================
+08/10/2024 09:50:07 display_status INFO     Connecting to receiver number: 25
+08/10/2024 09:50:07 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 19 00 00 00 00 00 00 00 02 00 08 45 D1 56
+08/10/2024 09:50:07 display_status INFO     =============================================================================================================================================
+08/10/2024 09:50:07 display_status INFO     Connecting to receiver number: 26
+08/10/2024 09:50:08 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 1A 00 00 00 00 00 00 00 02 00 08 45 D2 56
+08/10/2024 09:50:08 display_status INFO     =============================================================================================================================================
+08/10/2024 09:50:08 display_status INFO     Connecting to receiver number: 27
+08/10/2024 09:50:09 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 1B 00 00 00 00 00 00 00 02 00 08 45 D3 56
+08/10/2024 09:50:09 display_status INFO     =============================================================================================================================================
+08/10/2024 09:50:09 display_status INFO     Connecting to receiver number: 28
+08/10/2024 09:50:09 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 1C 00 00 00 00 00 00 00 02 00 08 45 D4 56
+08/10/2024 09:50:09 display_status INFO     =============================================================================================================================================
+08/10/2024 09:50:09 display_status INFO     Connecting to receiver number: 29
+08/10/2024 09:50:10 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 1D 00 00 00 00 00 00 00 02 00 08 45 D5 56
+08/10/2024 09:50:10 display_status INFO     =============================================================================================================================================
+08/10/2024 09:50:10 display_status INFO     Connecting to receiver number: 30
+08/10/2024 09:50:10 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 1E 00 00 00 00 00 00 00 02 00 08 45 D6 56
+08/10/2024 09:50:10 display_status INFO     =============================================================================================================================================
+08/10/2024 09:50:10 display_status INFO     Connecting to receiver number: 31
+08/10/2024 09:50:11 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 1F 00 00 00 00 00 00 00 02 00 08 45 D7 56
+08/10/2024 09:50:11 display_status INFO     =============================================================================================================================================
+08/10/2024 09:50:11 display_status INFO     Connecting to receiver number: 32
+08/10/2024 09:50:12 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 20 00 00 00 00 00 00 00 02 00 08 45 D8 56
+08/10/2024 09:50:12 display_status INFO     =============================================================================================================================================
+08/10/2024 09:50:12 display_status INFO     Connecting to receiver number: 33
+08/10/2024 09:50:12 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 21 00 00 00 00 00 00 00 02 00 08 45 D9 56
+08/10/2024 09:50:12 display_status INFO     =============================================================================================================================================
+08/10/2024 09:50:12 display_status INFO     Connecting to receiver number: 34
+08/10/2024 09:50:13 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 22 00 00 00 00 00 00 00 02 00 08 45 DA 56
+08/10/2024 09:50:13 display_status INFO     =============================================================================================================================================
+08/10/2024 09:50:13 display_status INFO     Connecting to receiver number: 35
+08/10/2024 09:50:13 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 23 00 00 00 00 00 00 00 02 00 08 45 DB 56
+08/10/2024 09:50:13 display_status INFO     =============================================================================================================================================
+08/10/2024 09:50:13 display_status INFO     Connecting to receiver number: 36
+08/10/2024 09:50:14 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 24 00 00 00 00 00 00 00 02 00 08 45 DC 56
+08/10/2024 09:50:14 display_status INFO     =============================================================================================================================================
+08/10/2024 09:50:14 display_status INFO     Connecting to receiver number: 37
+08/10/2024 09:50:15 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 25 00 00 00 00 00 00 00 02 00 08 45 DD 56
+08/10/2024 09:50:15 display_status INFO     =============================================================================================================================================
+08/10/2024 09:50:15 display_status INFO     Connecting to receiver number: 38
+08/10/2024 09:50:15 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 26 00 00 00 00 00 00 00 02 00 08 45 DE 56
+08/10/2024 09:50:15 display_status INFO     =============================================================================================================================================
+08/10/2024 09:50:15 display_status INFO     Connecting to receiver number: 39
+08/10/2024 09:50:16 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 27 00 00 00 00 00 00 00 02 00 08 45 DF 56
+08/10/2024 09:50:16 display_status INFO     =============================================================================================================================================
+08/10/2024 09:50:16 display_status INFO     Connecting to receiver number: 40
+08/10/2024 09:50:16 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 28 00 00 00 00 00 00 00 02 00 08 45 E0 56
+08/10/2024 09:50:16 display_status INFO     =============================================================================================================================================
+08/10/2024 09:50:16 display_status INFO     Connecting to receiver number: 41
+08/10/2024 09:50:17 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 29 00 00 00 00 00 00 00 02 00 08 45 E1 56
+08/10/2024 09:50:17 display_status INFO     =============================================================================================================================================
+08/10/2024 09:50:17 display_status INFO     Connecting to receiver number: 42
+08/10/2024 09:50:18 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 2A 00 00 00 00 00 00 00 02 00 08 45 E2 56
+08/10/2024 09:50:18 display_status INFO     =============================================================================================================================================
+08/10/2024 09:50:18 display_status INFO     Connecting to receiver number: 43
+08/10/2024 09:50:18 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 2B 00 00 00 00 00 00 00 02 00 08 45 E3 56
+08/10/2024 09:50:18 display_status INFO     =============================================================================================================================================
+08/10/2024 09:50:18 display_status INFO     Connecting to receiver number: 44
+08/10/2024 09:50:19 display_status DEBUG    Received data: AA 55 01 15 00 FE 01 00 2C 00 00 00 00 00 00 00 02 00 08 45 E5 56
+08/10/2024 09:50:19 display_status ERROR    Command failed due to time out (time out on trying to access devices connected to a sending card)
+08/10/2024 09:50:19 display_status INFO     EXIT CODE: 0, NO of receiver cards 44
+08/10/2024 09:50:20 display_status INFO     *********************************************************************************************************************************************
+08/10/2024 09:50:20 display_status INFO     5Eyes - Starting Display Status Checks
+08/10/2024 09:50:20 display_status INFO     Loading config.json
+08/10/2024 09:50:20 display_status INFO     Version: 1.0.5, Baudrate: 1048576, Sleep Time: 0.6, Flash Timeout: 15
+08/10/2024 09:50:20 display_status INFO     Reading from status.json
+08/10/2024 09:50:20 display_status INFO     Setting up serial port
+08/10/2024 09:50:20 display_status INFO     Found 2 serial ports
+08/10/2024 09:50:20 display_status INFO     Searching sender card on port: COM5
+08/10/2024 09:50:20 display_status INFO     COM5 opened
+08/10/2024 09:50:20 display_status DEBUG    Sending command: 55 AA 00 AA FE 00 00 00 00 00 00 00 02 00 00 00 02 00 01 57
+08/10/2024 09:50:25 display_status INFO     COM5 closed
+08/10/2024 09:50:25 display_status INFO     Searching sender card on port: COM6
+08/10/2024 09:50:25 display_status INFO     COM6 opened
+08/10/2024 09:50:25 display_status DEBUG    Sending command: 55 AA 00 AA FE 00 00 00 00 00 00 00 02 00 00 00 02 00 01 57
+08/10/2024 09:50:25 display_status DEBUG    Received data:AA 55 00 AA 00 FE 00 00 00 00 00 00 02 00 00 00 02 00 01 11 13 57
+08/10/2024 09:50:25 display_status INFO     Device found on port: COM6 | USB Serial Port (COM6) | USB VID:PID=0403:6001 SER=5
+08/10/2024 09:50:30 display_status INFO     COM6 closed
+08/10/2024 09:50:30 display_status INFO     Found 1 device(s)
+08/10/2024 09:50:30 display_status INFO     *******************    DEVICE 0   *******************
+08/10/2024 09:50:30 display_status INFO     Connecting to device on COM6
+08/10/2024 09:50:30 display_status INFO     Opened device on port: COM6
+08/10/2024 09:50:30 display_status INFO     =============================================================================================================================================
+08/10/2024 09:50:30 display_status INFO     Connecting to receiver number: 1
+08/10/2024 09:50:30 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 01 00 00 00 00 00 00 00 02 00 08 45 B9 56
+08/10/2024 09:50:30 display_status INFO     =============================================================================================================================================
+08/10/2024 09:50:30 display_status INFO     Connecting to receiver number: 2
+08/10/2024 09:50:31 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 02 00 00 00 00 00 00 00 02 00 08 45 BA 56
+08/10/2024 09:50:31 display_status INFO     =============================================================================================================================================
+08/10/2024 09:50:31 display_status INFO     Connecting to receiver number: 3
+08/10/2024 09:50:32 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 03 00 00 00 00 00 00 00 02 00 08 45 BB 56
+08/10/2024 09:50:32 display_status INFO     =============================================================================================================================================
+08/10/2024 09:50:32 display_status INFO     Connecting to receiver number: 4
+08/10/2024 09:50:32 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 04 00 00 00 00 00 00 00 02 00 08 45 BC 56
+08/10/2024 09:50:32 display_status INFO     =============================================================================================================================================
+08/10/2024 09:50:32 display_status INFO     Connecting to receiver number: 5
+08/10/2024 09:50:33 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 05 00 00 00 00 00 00 00 02 00 08 45 BD 56
+08/10/2024 09:50:33 display_status INFO     =============================================================================================================================================
+08/10/2024 09:50:33 display_status INFO     Connecting to receiver number: 6
+08/10/2024 09:50:33 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 06 00 00 00 00 00 00 00 02 00 08 45 BE 56
+08/10/2024 09:50:33 display_status INFO     =============================================================================================================================================
+08/10/2024 09:50:33 display_status INFO     Connecting to receiver number: 7
+08/10/2024 09:50:34 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 07 00 00 00 00 00 00 00 02 00 08 45 BF 56
+08/10/2024 09:50:34 display_status INFO     =============================================================================================================================================
+08/10/2024 09:50:34 display_status INFO     Connecting to receiver number: 8
+08/10/2024 09:50:35 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 08 00 00 00 00 00 00 00 02 00 08 45 C0 56
+08/10/2024 09:50:35 display_status INFO     =============================================================================================================================================
+08/10/2024 09:50:35 display_status INFO     Connecting to receiver number: 9
+08/10/2024 09:50:35 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 09 00 00 00 00 00 00 00 02 00 08 45 C1 56
+08/10/2024 09:50:35 display_status INFO     =============================================================================================================================================
+08/10/2024 09:50:35 display_status INFO     Connecting to receiver number: 10
+08/10/2024 09:50:36 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 0A 00 00 00 00 00 00 00 02 00 08 45 C2 56
+08/10/2024 09:50:36 display_status INFO     =============================================================================================================================================
+08/10/2024 09:50:36 display_status INFO     Connecting to receiver number: 11
+08/10/2024 09:50:36 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 0B 00 00 00 00 00 00 00 02 00 08 45 C3 56
+08/10/2024 09:50:36 display_status INFO     =============================================================================================================================================
+08/10/2024 09:50:36 display_status INFO     Connecting to receiver number: 12
+08/10/2024 09:50:37 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 0C 00 00 00 00 00 00 00 02 00 08 45 C4 56
+08/10/2024 09:50:37 display_status INFO     =============================================================================================================================================
+08/10/2024 09:50:37 display_status INFO     Connecting to receiver number: 13
+08/10/2024 09:50:38 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 0D 00 00 00 00 00 00 00 02 00 08 45 C5 56
+08/10/2024 09:50:38 display_status INFO     =============================================================================================================================================
+08/10/2024 09:50:38 display_status INFO     Connecting to receiver number: 14
+08/10/2024 09:50:38 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 0E 00 00 00 00 00 00 00 02 00 08 45 C6 56
+08/10/2024 09:50:38 display_status INFO     =============================================================================================================================================
+08/10/2024 09:50:38 display_status INFO     Connecting to receiver number: 15
+08/10/2024 09:50:39 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 0F 00 00 00 00 00 00 00 02 00 08 45 C7 56
+08/10/2024 09:50:39 display_status INFO     =============================================================================================================================================
+08/10/2024 09:50:39 display_status INFO     Connecting to receiver number: 16
+08/10/2024 09:50:39 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 10 00 00 00 00 00 00 00 02 00 08 45 C8 56
+08/10/2024 09:50:39 display_status INFO     =============================================================================================================================================
+08/10/2024 09:50:39 display_status INFO     Connecting to receiver number: 17
+08/10/2024 09:50:40 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 11 00 00 00 00 00 00 00 02 00 08 45 C9 56
+08/10/2024 09:50:40 display_status INFO     =============================================================================================================================================
+08/10/2024 09:50:40 display_status INFO     Connecting to receiver number: 18
+08/10/2024 09:50:41 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 12 00 00 00 00 00 00 00 02 00 08 45 CA 56
+08/10/2024 09:50:41 display_status INFO     =============================================================================================================================================
+08/10/2024 09:50:41 display_status INFO     Connecting to receiver number: 19
+08/10/2024 09:50:41 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 13 00 00 00 00 00 00 00 02 00 08 45 CB 56
+08/10/2024 09:50:41 display_status INFO     =============================================================================================================================================
+08/10/2024 09:50:41 display_status INFO     Connecting to receiver number: 20
+08/10/2024 09:50:42 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 14 00 00 00 00 00 00 00 02 00 08 45 CC 56
+08/10/2024 09:50:42 display_status INFO     =============================================================================================================================================
+08/10/2024 09:50:42 display_status INFO     Connecting to receiver number: 21
+08/10/2024 09:50:42 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 15 00 00 00 00 00 00 00 02 00 08 45 CD 56
+08/10/2024 09:50:42 display_status INFO     =============================================================================================================================================
+08/10/2024 09:50:42 display_status INFO     Connecting to receiver number: 22
+08/10/2024 09:50:43 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 16 00 00 00 00 00 00 00 02 00 08 45 CE 56
+08/10/2024 09:50:43 display_status INFO     =============================================================================================================================================
+08/10/2024 09:50:43 display_status INFO     Connecting to receiver number: 23
+08/10/2024 09:50:44 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 17 00 00 00 00 00 00 00 02 00 08 45 CF 56
+08/10/2024 09:50:44 display_status INFO     =============================================================================================================================================
+08/10/2024 09:50:44 display_status INFO     Connecting to receiver number: 24
+08/10/2024 09:50:44 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 18 00 00 00 00 00 00 00 02 00 08 45 D0 56
+08/10/2024 09:50:44 display_status INFO     =============================================================================================================================================
+08/10/2024 09:50:44 display_status INFO     Connecting to receiver number: 25
+08/10/2024 09:50:45 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 19 00 00 00 00 00 00 00 02 00 08 45 D1 56
+08/10/2024 09:50:45 display_status INFO     =============================================================================================================================================
+08/10/2024 09:50:45 display_status INFO     Connecting to receiver number: 26
+08/10/2024 09:50:45 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 1A 00 00 00 00 00 00 00 02 00 08 45 D2 56
+08/10/2024 09:50:45 display_status INFO     =============================================================================================================================================
+08/10/2024 09:50:45 display_status INFO     Connecting to receiver number: 27
+08/10/2024 09:50:46 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 1B 00 00 00 00 00 00 00 02 00 08 45 D3 56
+08/10/2024 09:50:46 display_status INFO     =============================================================================================================================================
+08/10/2024 09:50:46 display_status INFO     Connecting to receiver number: 28
+08/10/2024 09:50:47 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 1C 00 00 00 00 00 00 00 02 00 08 45 D4 56
+08/10/2024 09:50:47 display_status INFO     =============================================================================================================================================
+08/10/2024 09:50:47 display_status INFO     Connecting to receiver number: 29
+08/10/2024 09:50:47 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 1D 00 00 00 00 00 00 00 02 00 08 45 D5 56
+08/10/2024 09:50:47 display_status INFO     =============================================================================================================================================
+08/10/2024 09:50:47 display_status INFO     Connecting to receiver number: 30
+08/10/2024 09:50:48 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 1E 00 00 00 00 00 00 00 02 00 08 45 D6 56
+08/10/2024 09:50:48 display_status INFO     =============================================================================================================================================
+08/10/2024 09:50:48 display_status INFO     Connecting to receiver number: 31
+08/10/2024 09:50:48 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 1F 00 00 00 00 00 00 00 02 00 08 45 D7 56
+08/10/2024 09:50:48 display_status INFO     =============================================================================================================================================
+08/10/2024 09:50:48 display_status INFO     Connecting to receiver number: 32
+08/10/2024 09:50:49 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 20 00 00 00 00 00 00 00 02 00 08 45 D8 56
+08/10/2024 09:50:49 display_status INFO     =============================================================================================================================================
+08/10/2024 09:50:49 display_status INFO     Connecting to receiver number: 33
+08/10/2024 09:50:50 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 21 00 00 00 00 00 00 00 02 00 08 45 D9 56
+08/10/2024 09:50:50 display_status INFO     =============================================================================================================================================
+08/10/2024 09:50:50 display_status INFO     Connecting to receiver number: 34
+08/10/2024 09:50:50 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 22 00 00 00 00 00 00 00 02 00 08 45 DA 56
+08/10/2024 09:50:50 display_status INFO     =============================================================================================================================================
+08/10/2024 09:50:50 display_status INFO     Connecting to receiver number: 35
+08/10/2024 09:50:51 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 23 00 00 00 00 00 00 00 02 00 08 45 DB 56
+08/10/2024 09:50:51 display_status INFO     =============================================================================================================================================
+08/10/2024 09:50:51 display_status INFO     Connecting to receiver number: 36
+08/10/2024 09:50:51 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 24 00 00 00 00 00 00 00 02 00 08 45 DC 56
+08/10/2024 09:50:51 display_status INFO     =============================================================================================================================================
+08/10/2024 09:50:51 display_status INFO     Connecting to receiver number: 37
+08/10/2024 09:50:52 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 25 00 00 00 00 00 00 00 02 00 08 45 DD 56
+08/10/2024 09:50:52 display_status INFO     =============================================================================================================================================
+08/10/2024 09:50:52 display_status INFO     Connecting to receiver number: 38
+08/10/2024 09:50:53 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 26 00 00 00 00 00 00 00 02 00 08 45 DE 56
+08/10/2024 09:50:53 display_status INFO     =============================================================================================================================================
+08/10/2024 09:50:53 display_status INFO     Connecting to receiver number: 39
+08/10/2024 09:50:53 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 27 00 00 00 00 00 00 00 02 00 08 45 DF 56
+08/10/2024 09:50:53 display_status INFO     =============================================================================================================================================
+08/10/2024 09:50:53 display_status INFO     Connecting to receiver number: 40
+08/10/2024 09:50:54 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 28 00 00 00 00 00 00 00 02 00 08 45 E0 56
+08/10/2024 09:50:54 display_status INFO     =============================================================================================================================================
+08/10/2024 09:50:54 display_status INFO     Connecting to receiver number: 41
+08/10/2024 09:50:54 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 29 00 00 00 00 00 00 00 02 00 08 45 E1 56
+08/10/2024 09:50:54 display_status INFO     =============================================================================================================================================
+08/10/2024 09:50:54 display_status INFO     Connecting to receiver number: 42
+08/10/2024 09:50:55 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 2A 00 00 00 00 00 00 00 02 00 08 45 E2 56
+08/10/2024 09:50:55 display_status INFO     =============================================================================================================================================
+08/10/2024 09:50:55 display_status INFO     Connecting to receiver number: 43
+08/10/2024 09:50:56 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 2B 00 00 00 00 00 00 00 02 00 08 45 E3 56
+08/10/2024 09:50:56 display_status INFO     =============================================================================================================================================
+08/10/2024 09:50:56 display_status INFO     Connecting to receiver number: 44
+08/10/2024 09:50:56 display_status DEBUG    Received data: AA 55 01 15 00 FE 01 00 2C 00 00 00 00 00 00 00 02 00 08 45 E5 56
+08/10/2024 09:50:56 display_status ERROR    Command failed due to time out (time out on trying to access devices connected to a sending card)
+08/10/2024 09:50:56 display_status INFO     EXIT CODE: 0, NO of receiver cards 44
+08/10/2024 09:51:03 display_status INFO     *********************************************************************************************************************************************
+08/10/2024 09:51:03 display_status INFO     5Eyes - Starting Display Status Checks
+08/10/2024 09:51:03 display_status INFO     Loading config.json
+08/10/2024 09:51:03 display_status INFO     Version: 1.0.5, Baudrate: 1048576, Sleep Time: 0.6, Flash Timeout: 15
+08/10/2024 09:51:03 display_status INFO     Reading from status.json
+08/10/2024 09:51:03 display_status INFO     Setting up serial port
+08/10/2024 09:51:03 display_status INFO     Found 2 serial ports
+08/10/2024 09:51:03 display_status INFO     Searching sender card on port: COM5
+08/10/2024 09:51:03 display_status INFO     COM5 opened
+08/10/2024 09:51:03 display_status DEBUG    Sending command: 55 AA 00 AA FE 00 00 00 00 00 00 00 02 00 00 00 02 00 01 57
+08/10/2024 09:51:08 display_status INFO     COM5 closed
+08/10/2024 09:51:08 display_status INFO     Searching sender card on port: COM6
+08/10/2024 09:51:08 display_status INFO     COM6 opened
+08/10/2024 09:51:08 display_status DEBUG    Sending command: 55 AA 00 AA FE 00 00 00 00 00 00 00 02 00 00 00 02 00 01 57
+08/10/2024 09:51:08 display_status DEBUG    Received data:AA 55 00 AA 00 FE 00 00 00 00 00 00 02 00 00 00 02 00 01 11 13 57
+08/10/2024 09:51:08 display_status INFO     Device found on port: COM6 | USB Serial Port (COM6) | USB VID:PID=0403:6001 SER=5
+08/10/2024 09:51:13 display_status INFO     COM6 closed
+08/10/2024 09:51:13 display_status INFO     Found 1 device(s)
+08/10/2024 09:51:13 display_status INFO     *******************    DEVICE 0   *******************
+08/10/2024 09:51:13 display_status INFO     Connecting to device on COM6
+08/10/2024 09:51:13 display_status INFO     Opened device on port: COM6
+08/10/2024 09:51:13 display_status INFO     =============================================================================================================================================
+08/10/2024 09:51:13 display_status INFO     Connecting to receiver number: 1
+08/10/2024 09:51:14 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 01 00 00 00 00 00 00 00 02 00 08 45 B9 56
+08/10/2024 09:51:14 display_status INFO     =============================================================================================================================================
+08/10/2024 09:51:14 display_status INFO     Connecting to receiver number: 2
+08/10/2024 09:51:14 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 02 00 00 00 00 00 00 00 02 00 08 45 BA 56
+08/10/2024 09:51:14 display_status INFO     =============================================================================================================================================
+08/10/2024 09:51:14 display_status INFO     Connecting to receiver number: 3
+08/10/2024 09:51:15 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 03 00 00 00 00 00 00 00 02 00 08 45 BB 56
+08/10/2024 09:51:15 display_status INFO     =============================================================================================================================================
+08/10/2024 09:51:15 display_status INFO     Connecting to receiver number: 4
+08/10/2024 09:51:15 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 04 00 00 00 00 00 00 00 02 00 08 45 BC 56
+08/10/2024 09:51:15 display_status INFO     =============================================================================================================================================
+08/10/2024 09:51:15 display_status INFO     Connecting to receiver number: 5
+08/10/2024 09:51:16 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 05 00 00 00 00 00 00 00 02 00 08 45 BD 56
+08/10/2024 09:51:16 display_status INFO     =============================================================================================================================================
+08/10/2024 09:51:16 display_status INFO     Connecting to receiver number: 6
+08/10/2024 09:51:17 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 06 00 00 00 00 00 00 00 02 00 08 45 BE 56
+08/10/2024 09:51:17 display_status INFO     =============================================================================================================================================
+08/10/2024 09:51:17 display_status INFO     Connecting to receiver number: 7
+08/10/2024 09:51:17 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 07 00 00 00 00 00 00 00 02 00 08 45 BF 56
+08/10/2024 09:51:17 display_status INFO     =============================================================================================================================================
+08/10/2024 09:51:17 display_status INFO     Connecting to receiver number: 8
+08/10/2024 09:51:18 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 08 00 00 00 00 00 00 00 02 00 08 45 C0 56
+08/10/2024 09:51:18 display_status INFO     =============================================================================================================================================
+08/10/2024 09:51:18 display_status INFO     Connecting to receiver number: 9
+08/10/2024 09:51:18 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 09 00 00 00 00 00 00 00 02 00 08 45 C1 56
+08/10/2024 09:51:18 display_status INFO     =============================================================================================================================================
+08/10/2024 09:51:18 display_status INFO     Connecting to receiver number: 10
+08/10/2024 09:51:19 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 0A 00 00 00 00 00 00 00 02 00 08 45 C2 56
+08/10/2024 09:51:19 display_status INFO     =============================================================================================================================================
+08/10/2024 09:51:19 display_status INFO     Connecting to receiver number: 11
+08/10/2024 09:51:20 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 0B 00 00 00 00 00 00 00 02 00 08 45 C3 56
+08/10/2024 09:51:20 display_status INFO     =============================================================================================================================================
+08/10/2024 09:51:20 display_status INFO     Connecting to receiver number: 12
+08/10/2024 09:51:20 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 0C 00 00 00 00 00 00 00 02 00 08 45 C4 56
+08/10/2024 09:51:20 display_status INFO     =============================================================================================================================================
+08/10/2024 09:51:20 display_status INFO     Connecting to receiver number: 13
+08/10/2024 09:51:21 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 0D 00 00 00 00 00 00 00 02 00 08 45 C5 56
+08/10/2024 09:51:21 display_status INFO     =============================================================================================================================================
+08/10/2024 09:51:21 display_status INFO     Connecting to receiver number: 14
+08/10/2024 09:51:21 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 0E 00 00 00 00 00 00 00 02 00 08 45 C6 56
+08/10/2024 09:51:21 display_status INFO     =============================================================================================================================================
+08/10/2024 09:51:21 display_status INFO     Connecting to receiver number: 15
+08/10/2024 09:51:22 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 0F 00 00 00 00 00 00 00 02 00 08 45 C7 56
+08/10/2024 09:51:22 display_status INFO     =============================================================================================================================================
+08/10/2024 09:51:22 display_status INFO     Connecting to receiver number: 16
+08/10/2024 09:51:23 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 10 00 00 00 00 00 00 00 02 00 08 45 C8 56
+08/10/2024 09:51:23 display_status INFO     =============================================================================================================================================
+08/10/2024 09:51:23 display_status INFO     Connecting to receiver number: 17
+08/10/2024 09:51:23 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 11 00 00 00 00 00 00 00 02 00 08 45 C9 56
+08/10/2024 09:51:23 display_status INFO     =============================================================================================================================================
+08/10/2024 09:51:23 display_status INFO     Connecting to receiver number: 18
+08/10/2024 09:51:24 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 12 00 00 00 00 00 00 00 02 00 08 45 CA 56
+08/10/2024 09:51:24 display_status INFO     =============================================================================================================================================
+08/10/2024 09:51:24 display_status INFO     Connecting to receiver number: 19
+08/10/2024 09:51:25 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 13 00 00 00 00 00 00 00 02 00 08 45 CB 56
+08/10/2024 09:51:25 display_status INFO     =============================================================================================================================================
+08/10/2024 09:51:25 display_status INFO     Connecting to receiver number: 20
+08/10/2024 09:51:25 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 14 00 00 00 00 00 00 00 02 00 08 45 CC 56
+08/10/2024 09:51:25 display_status INFO     =============================================================================================================================================
+08/10/2024 09:51:25 display_status INFO     Connecting to receiver number: 21
+08/10/2024 09:51:26 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 15 00 00 00 00 00 00 00 02 00 08 45 CD 56
+08/10/2024 09:51:26 display_status INFO     =============================================================================================================================================
+08/10/2024 09:51:26 display_status INFO     Connecting to receiver number: 22
+08/10/2024 09:51:26 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 16 00 00 00 00 00 00 00 02 00 08 45 CE 56
+08/10/2024 09:51:26 display_status INFO     =============================================================================================================================================
+08/10/2024 09:51:26 display_status INFO     Connecting to receiver number: 23
+08/10/2024 09:51:27 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 17 00 00 00 00 00 00 00 02 00 08 45 CF 56
+08/10/2024 09:51:27 display_status INFO     =============================================================================================================================================
+08/10/2024 09:51:27 display_status INFO     Connecting to receiver number: 24
+08/10/2024 09:51:28 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 18 00 00 00 00 00 00 00 02 00 08 45 D0 56
+08/10/2024 09:51:28 display_status INFO     =============================================================================================================================================
+08/10/2024 09:51:28 display_status INFO     Connecting to receiver number: 25
+08/10/2024 09:51:28 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 19 00 00 00 00 00 00 00 02 00 08 45 D1 56
+08/10/2024 09:51:28 display_status INFO     =============================================================================================================================================
+08/10/2024 09:51:28 display_status INFO     Connecting to receiver number: 26
+08/10/2024 09:51:29 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 1A 00 00 00 00 00 00 00 02 00 08 45 D2 56
+08/10/2024 09:51:29 display_status INFO     =============================================================================================================================================
+08/10/2024 09:51:29 display_status INFO     Connecting to receiver number: 27
+08/10/2024 09:51:29 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 1B 00 00 00 00 00 00 00 02 00 08 45 D3 56
+08/10/2024 09:51:29 display_status INFO     =============================================================================================================================================
+08/10/2024 09:51:29 display_status INFO     Connecting to receiver number: 28
+08/10/2024 09:51:30 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 1C 00 00 00 00 00 00 00 02 00 08 45 D4 56
+08/10/2024 09:51:30 display_status INFO     =============================================================================================================================================
+08/10/2024 09:51:30 display_status INFO     Connecting to receiver number: 29
+08/10/2024 09:51:31 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 1D 00 00 00 00 00 00 00 02 00 08 45 D5 56
+08/10/2024 09:51:31 display_status INFO     =============================================================================================================================================
+08/10/2024 09:51:31 display_status INFO     Connecting to receiver number: 30
+08/10/2024 09:51:31 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 1E 00 00 00 00 00 00 00 02 00 08 45 D6 56
+08/10/2024 09:51:31 display_status INFO     =============================================================================================================================================
+08/10/2024 09:51:31 display_status INFO     Connecting to receiver number: 31
+08/10/2024 09:51:32 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 1F 00 00 00 00 00 00 00 02 00 08 45 D7 56
+08/10/2024 09:51:32 display_status INFO     =============================================================================================================================================
+08/10/2024 09:51:32 display_status INFO     Connecting to receiver number: 32
+08/10/2024 09:51:32 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 20 00 00 00 00 00 00 00 02 00 08 45 D8 56
+08/10/2024 09:51:32 display_status INFO     =============================================================================================================================================
+08/10/2024 09:51:32 display_status INFO     Connecting to receiver number: 33
+08/10/2024 09:51:33 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 21 00 00 00 00 00 00 00 02 00 08 45 D9 56
+08/10/2024 09:51:33 display_status INFO     =============================================================================================================================================
+08/10/2024 09:51:33 display_status INFO     Connecting to receiver number: 34
+08/10/2024 09:51:34 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 22 00 00 00 00 00 00 00 02 00 08 45 DA 56
+08/10/2024 09:51:34 display_status INFO     =============================================================================================================================================
+08/10/2024 09:51:34 display_status INFO     Connecting to receiver number: 35
+08/10/2024 09:51:34 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 23 00 00 00 00 00 00 00 02 00 08 45 DB 56
+08/10/2024 09:51:34 display_status INFO     =============================================================================================================================================
+08/10/2024 09:51:34 display_status INFO     Connecting to receiver number: 36
+08/10/2024 09:51:35 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 24 00 00 00 00 00 00 00 02 00 08 45 DC 56
+08/10/2024 09:51:35 display_status INFO     =============================================================================================================================================
+08/10/2024 09:51:35 display_status INFO     Connecting to receiver number: 37
+08/10/2024 09:51:35 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 25 00 00 00 00 00 00 00 02 00 08 45 DD 56
+08/10/2024 09:51:35 display_status INFO     =============================================================================================================================================
+08/10/2024 09:51:35 display_status INFO     Connecting to receiver number: 38
+08/10/2024 09:51:36 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 26 00 00 00 00 00 00 00 02 00 08 45 DE 56
+08/10/2024 09:51:36 display_status INFO     =============================================================================================================================================
+08/10/2024 09:51:36 display_status INFO     Connecting to receiver number: 39
+08/10/2024 09:51:37 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 27 00 00 00 00 00 00 00 02 00 08 45 DF 56
+08/10/2024 09:51:37 display_status INFO     =============================================================================================================================================
+08/10/2024 09:51:37 display_status INFO     Connecting to receiver number: 40
+08/10/2024 09:51:37 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 28 00 00 00 00 00 00 00 02 00 08 45 E0 56
+08/10/2024 09:51:37 display_status INFO     =============================================================================================================================================
+08/10/2024 09:51:37 display_status INFO     Connecting to receiver number: 41
+08/10/2024 09:51:38 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 29 00 00 00 00 00 00 00 02 00 08 45 E1 56
+08/10/2024 09:51:38 display_status INFO     =============================================================================================================================================
+08/10/2024 09:51:38 display_status INFO     Connecting to receiver number: 42
+08/10/2024 09:51:38 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 2A 00 00 00 00 00 00 00 02 00 08 45 E2 56
+08/10/2024 09:51:38 display_status INFO     =============================================================================================================================================
+08/10/2024 09:51:38 display_status INFO     Connecting to receiver number: 43
+08/10/2024 09:51:39 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 2B 00 00 00 00 00 00 00 02 00 08 45 E3 56
+08/10/2024 09:51:39 display_status INFO     =============================================================================================================================================
+08/10/2024 09:51:39 display_status INFO     Connecting to receiver number: 44
+08/10/2024 09:51:40 display_status DEBUG    Received data: AA 55 01 15 00 FE 01 00 2C 00 00 00 00 00 00 00 02 00 08 45 E5 56
+08/10/2024 09:51:40 display_status ERROR    Command failed due to time out (time out on trying to access devices connected to a sending card)
+08/10/2024 09:51:40 display_status INFO     EXIT CODE: 0, NO of receiver cards 44
+08/10/2024 09:51:40 display_status INFO     *********************************************************************************************************************************************
+08/10/2024 09:51:40 display_status INFO     5Eyes - Starting Display Status Checks
+08/10/2024 09:51:40 display_status INFO     Loading config.json
+08/10/2024 09:51:40 display_status INFO     Version: 1.0.5, Baudrate: 1048576, Sleep Time: 0.6, Flash Timeout: 15
+08/10/2024 09:51:40 display_status INFO     Reading from status.json
+08/10/2024 09:51:40 display_status INFO     Setting up serial port
+08/10/2024 09:51:40 display_status INFO     Found 2 serial ports
+08/10/2024 09:51:40 display_status INFO     Searching sender card on port: COM5
+08/10/2024 09:51:40 display_status INFO     COM5 opened
+08/10/2024 09:51:40 display_status DEBUG    Sending command: 55 AA 00 AA FE 00 00 00 00 00 00 00 02 00 00 00 02 00 01 57
+08/10/2024 09:51:45 display_status INFO     COM5 closed
+08/10/2024 09:51:45 display_status INFO     Searching sender card on port: COM6
+08/10/2024 09:51:45 display_status INFO     COM6 opened
+08/10/2024 09:51:45 display_status DEBUG    Sending command: 55 AA 00 AA FE 00 00 00 00 00 00 00 02 00 00 00 02 00 01 57
+08/10/2024 09:51:45 display_status DEBUG    Received data:AA 55 00 AA 00 FE 00 00 00 00 00 00 02 00 00 00 02 00 01 11 13 57
+08/10/2024 09:51:45 display_status INFO     Device found on port: COM6 | USB Serial Port (COM6) | USB VID:PID=0403:6001 SER=5
+08/10/2024 09:51:50 display_status INFO     COM6 closed
+08/10/2024 09:51:50 display_status INFO     Found 1 device(s)
+08/10/2024 09:51:50 display_status INFO     *******************    DEVICE 0   *******************
+08/10/2024 09:51:50 display_status INFO     Connecting to device on COM6
+08/10/2024 09:51:50 display_status INFO     Opened device on port: COM6
+08/10/2024 09:51:50 display_status INFO     =============================================================================================================================================
+08/10/2024 09:51:50 display_status INFO     Connecting to receiver number: 1
+08/10/2024 09:51:51 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 01 00 00 00 00 00 00 00 02 00 08 45 B9 56
+08/10/2024 09:51:51 display_status INFO     =============================================================================================================================================
+08/10/2024 09:51:51 display_status INFO     Connecting to receiver number: 2
+08/10/2024 09:51:52 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 02 00 00 00 00 00 00 00 02 00 08 45 BA 56
+08/10/2024 09:51:52 display_status INFO     =============================================================================================================================================
+08/10/2024 09:51:52 display_status INFO     Connecting to receiver number: 3
+08/10/2024 09:51:52 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 03 00 00 00 00 00 00 00 02 00 08 45 BB 56
+08/10/2024 09:51:52 display_status INFO     =============================================================================================================================================
+08/10/2024 09:51:52 display_status INFO     Connecting to receiver number: 4
+08/10/2024 09:51:53 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 04 00 00 00 00 00 00 00 02 00 08 45 BC 56
+08/10/2024 09:51:53 display_status INFO     =============================================================================================================================================
+08/10/2024 09:51:53 display_status INFO     Connecting to receiver number: 5
+08/10/2024 09:51:53 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 05 00 00 00 00 00 00 00 02 00 08 45 BD 56
+08/10/2024 09:51:53 display_status INFO     =============================================================================================================================================
+08/10/2024 09:51:53 display_status INFO     Connecting to receiver number: 6
+08/10/2024 09:51:54 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 06 00 00 00 00 00 00 00 02 00 08 45 BE 56
+08/10/2024 09:51:54 display_status INFO     =============================================================================================================================================
+08/10/2024 09:51:54 display_status INFO     Connecting to receiver number: 7
+08/10/2024 09:51:55 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 07 00 00 00 00 00 00 00 02 00 08 45 BF 56
+08/10/2024 09:51:55 display_status INFO     =============================================================================================================================================
+08/10/2024 09:51:55 display_status INFO     Connecting to receiver number: 8
+08/10/2024 09:51:55 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 08 00 00 00 00 00 00 00 02 00 08 45 C0 56
+08/10/2024 09:51:55 display_status INFO     =============================================================================================================================================
+08/10/2024 09:51:55 display_status INFO     Connecting to receiver number: 9
+08/10/2024 09:51:56 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 09 00 00 00 00 00 00 00 02 00 08 45 C1 56
+08/10/2024 09:51:56 display_status INFO     =============================================================================================================================================
+08/10/2024 09:51:56 display_status INFO     Connecting to receiver number: 10
+08/10/2024 09:51:56 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 0A 00 00 00 00 00 00 00 02 00 08 45 C2 56
+08/10/2024 09:51:56 display_status INFO     =============================================================================================================================================
+08/10/2024 09:51:56 display_status INFO     Connecting to receiver number: 11
+08/10/2024 09:51:57 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 0B 00 00 00 00 00 00 00 02 00 08 45 C3 56
+08/10/2024 09:51:57 display_status INFO     =============================================================================================================================================
+08/10/2024 09:51:57 display_status INFO     Connecting to receiver number: 12
+08/10/2024 09:51:58 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 0C 00 00 00 00 00 00 00 02 00 08 45 C4 56
+08/10/2024 09:51:58 display_status INFO     =============================================================================================================================================
+08/10/2024 09:51:58 display_status INFO     Connecting to receiver number: 13
+08/10/2024 09:51:58 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 0D 00 00 00 00 00 00 00 02 00 08 45 C5 56
+08/10/2024 09:51:58 display_status INFO     =============================================================================================================================================
+08/10/2024 09:51:58 display_status INFO     Connecting to receiver number: 14
+08/10/2024 09:51:59 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 0E 00 00 00 00 00 00 00 02 00 08 45 C6 56
+08/10/2024 09:51:59 display_status INFO     =============================================================================================================================================
+08/10/2024 09:51:59 display_status INFO     Connecting to receiver number: 15
+08/10/2024 09:51:59 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 0F 00 00 00 00 00 00 00 02 00 08 45 C7 56
+08/10/2024 09:51:59 display_status INFO     =============================================================================================================================================
+08/10/2024 09:51:59 display_status INFO     Connecting to receiver number: 16
+08/10/2024 09:52:00 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 10 00 00 00 00 00 00 00 02 00 08 45 C8 56
+08/10/2024 09:52:00 display_status INFO     =============================================================================================================================================
+08/10/2024 09:52:00 display_status INFO     Connecting to receiver number: 17
+08/10/2024 09:52:01 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 11 00 00 00 00 00 00 00 02 00 08 45 C9 56
+08/10/2024 09:52:01 display_status INFO     =============================================================================================================================================
+08/10/2024 09:52:01 display_status INFO     Connecting to receiver number: 18
+08/10/2024 09:52:01 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 12 00 00 00 00 00 00 00 02 00 08 45 CA 56
+08/10/2024 09:52:01 display_status INFO     =============================================================================================================================================
+08/10/2024 09:52:01 display_status INFO     Connecting to receiver number: 19
+08/10/2024 09:52:02 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 13 00 00 00 00 00 00 00 02 00 08 45 CB 56
+08/10/2024 09:52:02 display_status INFO     =============================================================================================================================================
+08/10/2024 09:52:02 display_status INFO     Connecting to receiver number: 20
+08/10/2024 09:52:02 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 14 00 00 00 00 00 00 00 02 00 08 45 CC 56
+08/10/2024 09:52:02 display_status INFO     =============================================================================================================================================
+08/10/2024 09:52:02 display_status INFO     Connecting to receiver number: 21
+08/10/2024 09:52:03 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 15 00 00 00 00 00 00 00 02 00 08 45 CD 56
+08/10/2024 09:52:03 display_status INFO     =============================================================================================================================================
+08/10/2024 09:52:03 display_status INFO     Connecting to receiver number: 22
+08/10/2024 09:52:04 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 16 00 00 00 00 00 00 00 02 00 08 45 CE 56
+08/10/2024 09:52:04 display_status INFO     =============================================================================================================================================
+08/10/2024 09:52:04 display_status INFO     Connecting to receiver number: 23
+08/10/2024 09:52:04 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 17 00 00 00 00 00 00 00 02 00 08 45 CF 56
+08/10/2024 09:52:04 display_status INFO     =============================================================================================================================================
+08/10/2024 09:52:04 display_status INFO     Connecting to receiver number: 24
+08/10/2024 09:52:05 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 18 00 00 00 00 00 00 00 02 00 08 45 D0 56
+08/10/2024 09:52:05 display_status INFO     =============================================================================================================================================
+08/10/2024 09:52:05 display_status INFO     Connecting to receiver number: 25
+08/10/2024 09:52:05 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 19 00 00 00 00 00 00 00 02 00 08 45 D1 56
+08/10/2024 09:52:05 display_status INFO     =============================================================================================================================================
+08/10/2024 09:52:05 display_status INFO     Connecting to receiver number: 26
+08/10/2024 09:52:06 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 1A 00 00 00 00 00 00 00 02 00 08 45 D2 56
+08/10/2024 09:52:06 display_status INFO     =============================================================================================================================================
+08/10/2024 09:52:06 display_status INFO     Connecting to receiver number: 27
+08/10/2024 09:52:07 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 1B 00 00 00 00 00 00 00 02 00 08 45 D3 56
+08/10/2024 09:52:07 display_status INFO     =============================================================================================================================================
+08/10/2024 09:52:07 display_status INFO     Connecting to receiver number: 28
+08/10/2024 09:52:07 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 1C 00 00 00 00 00 00 00 02 00 08 45 D4 56
+08/10/2024 09:52:07 display_status INFO     =============================================================================================================================================
+08/10/2024 09:52:07 display_status INFO     Connecting to receiver number: 29
+08/10/2024 09:52:08 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 1D 00 00 00 00 00 00 00 02 00 08 45 D5 56
+08/10/2024 09:52:08 display_status INFO     =============================================================================================================================================
+08/10/2024 09:52:08 display_status INFO     Connecting to receiver number: 30
+08/10/2024 09:52:09 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 1E 00 00 00 00 00 00 00 02 00 08 45 D6 56
+08/10/2024 09:52:09 display_status INFO     =============================================================================================================================================
+08/10/2024 09:52:09 display_status INFO     Connecting to receiver number: 31
+08/10/2024 09:52:09 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 1F 00 00 00 00 00 00 00 02 00 08 45 D7 56
+08/10/2024 09:52:09 display_status INFO     =============================================================================================================================================
+08/10/2024 09:52:09 display_status INFO     Connecting to receiver number: 32
+08/10/2024 09:52:10 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 20 00 00 00 00 00 00 00 02 00 08 45 D8 56
+08/10/2024 09:52:10 display_status INFO     =============================================================================================================================================
+08/10/2024 09:52:10 display_status INFO     Connecting to receiver number: 33
+08/10/2024 09:52:10 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 21 00 00 00 00 00 00 00 02 00 08 45 D9 56
+08/10/2024 09:52:10 display_status INFO     =============================================================================================================================================
+08/10/2024 09:52:10 display_status INFO     Connecting to receiver number: 34
+08/10/2024 09:52:11 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 22 00 00 00 00 00 00 00 02 00 08 45 DA 56
+08/10/2024 09:52:11 display_status INFO     =============================================================================================================================================
+08/10/2024 09:52:11 display_status INFO     Connecting to receiver number: 35
+08/10/2024 09:52:12 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 23 00 00 00 00 00 00 00 02 00 08 45 DB 56
+08/10/2024 09:52:12 display_status INFO     =============================================================================================================================================
+08/10/2024 09:52:12 display_status INFO     Connecting to receiver number: 36
+08/10/2024 09:52:12 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 24 00 00 00 00 00 00 00 02 00 08 45 DC 56
+08/10/2024 09:52:12 display_status INFO     =============================================================================================================================================
+08/10/2024 09:52:12 display_status INFO     Connecting to receiver number: 37
+08/10/2024 09:52:13 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 25 00 00 00 00 00 00 00 02 00 08 45 DD 56
+08/10/2024 09:52:13 display_status INFO     =============================================================================================================================================
+08/10/2024 09:52:13 display_status INFO     Connecting to receiver number: 38
+08/10/2024 09:52:13 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 26 00 00 00 00 00 00 00 02 00 08 45 DE 56
+08/10/2024 09:52:13 display_status INFO     =============================================================================================================================================
+08/10/2024 09:52:13 display_status INFO     Connecting to receiver number: 39
+08/10/2024 09:52:14 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 27 00 00 00 00 00 00 00 02 00 08 45 DF 56
+08/10/2024 09:52:14 display_status INFO     =============================================================================================================================================
+08/10/2024 09:52:14 display_status INFO     Connecting to receiver number: 40
+08/10/2024 09:52:15 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 28 00 00 00 00 00 00 00 02 00 08 45 E0 56
+08/10/2024 09:52:15 display_status INFO     =============================================================================================================================================
+08/10/2024 09:52:15 display_status INFO     Connecting to receiver number: 41
+08/10/2024 09:52:15 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 29 00 00 00 00 00 00 00 02 00 08 45 E1 56
+08/10/2024 09:52:15 display_status INFO     =============================================================================================================================================
+08/10/2024 09:52:15 display_status INFO     Connecting to receiver number: 42
+08/10/2024 09:52:16 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 2A 00 00 00 00 00 00 00 02 00 08 45 E2 56
+08/10/2024 09:52:16 display_status INFO     =============================================================================================================================================
+08/10/2024 09:52:16 display_status INFO     Connecting to receiver number: 43
+08/10/2024 09:52:16 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 2B 00 00 00 00 00 00 00 02 00 08 45 E3 56
+08/10/2024 09:52:16 display_status INFO     =============================================================================================================================================
+08/10/2024 09:52:16 display_status INFO     Connecting to receiver number: 44
+08/10/2024 09:52:17 display_status DEBUG    Received data: AA 55 01 15 00 FE 01 00 2C 00 00 00 00 00 00 00 02 00 08 45 E5 56
+08/10/2024 09:52:17 display_status ERROR    Command failed due to time out (time out on trying to access devices connected to a sending card)
+08/10/2024 09:52:17 display_status INFO     EXIT CODE: 0, NO of receiver cards 44
+08/10/2024 10:16:50 display_status INFO     *********************************************************************************************************************************************
+08/10/2024 10:16:50 display_status INFO     5Eyes - Starting Display Status Checks
+08/10/2024 10:16:50 display_status INFO     Loading config.json
+08/10/2024 10:16:50 display_status INFO     Version: 1.0.5, Baudrate: 1048576, Sleep Time: 0.6, Flash Timeout: 15
+08/10/2024 10:16:50 display_status INFO     Reading from status.json
+08/10/2024 10:16:50 display_status INFO     Setting up serial port
+08/10/2024 10:16:50 display_status INFO     Found 2 serial ports
+08/10/2024 10:16:50 display_status INFO     Searching sender card on port: COM5
+08/10/2024 10:16:50 display_status INFO     COM5 opened
+08/10/2024 10:16:50 display_status DEBUG    Sending command: 55 AA 00 AA FE 00 00 00 00 00 00 00 02 00 00 00 02 00 01 57
+08/10/2024 10:16:55 display_status INFO     COM5 closed
+08/10/2024 10:16:55 display_status INFO     Searching sender card on port: COM6
+08/10/2024 10:16:55 display_status INFO     COM6 opened
+08/10/2024 10:16:55 display_status DEBUG    Sending command: 55 AA 00 AA FE 00 00 00 00 00 00 00 02 00 00 00 02 00 01 57
+08/10/2024 10:16:55 display_status ERROR    Error communicating with device: list index out of range
+08/10/2024 10:16:55 display_status INFO     COM6 closed
+08/10/2024 10:16:55 display_status INFO     Found 0 device(s)
+08/10/2024 10:16:55 display_status INFO     EXIT CODE: 2, NO DEVICE - make sure a valid controller is connected, that the correct baudrate is defined in config.json and ensure the NOVA LCT is not running on the host system 
+This can also mean that you don't run the tool as administrator
+08/10/2024 10:17:24 display_status INFO     *********************************************************************************************************************************************
+08/10/2024 10:17:24 display_status INFO     5Eyes - Starting Display Status Checks
+08/10/2024 10:17:24 display_status INFO     Loading config.json
+08/10/2024 10:17:24 display_status INFO     Version: 1.0.5, Baudrate: 1048576, Sleep Time: 0.6, Flash Timeout: 15
+08/10/2024 10:17:24 display_status INFO     Reading from status.json
+08/10/2024 10:17:24 display_status INFO     Setting up serial port
+08/10/2024 10:17:24 display_status INFO     Found 2 serial ports
+08/10/2024 10:17:24 display_status INFO     Searching sender card on port: COM5
+08/10/2024 10:17:24 display_status ERROR    could not open port 'COM5': PermissionError(13, 'Access is denied.', None, 5)
+08/10/2024 10:17:24 display_status INFO     Searching sender card on port: COM6
+08/10/2024 10:17:24 display_status ERROR    could not open port 'COM6': PermissionError(13, 'Access is denied.', None, 5)
+08/10/2024 10:17:24 display_status INFO     Found 0 device(s)
+08/10/2024 10:17:24 display_status INFO     EXIT CODE: 2, NO DEVICE - make sure a valid controller is connected, that the correct baudrate is defined in config.json and ensure the NOVA LCT is not running on the host system 
+This can also mean that you don't run the tool as administrator
+08/10/2024 10:26:44 display_status INFO     *********************************************************************************************************************************************
+08/10/2024 10:26:44 display_status INFO     5Eyes - Starting Display Status Checks
+08/10/2024 10:26:44 display_status INFO     Loading config.json
+08/10/2024 10:26:44 display_status INFO     Version: 1.0.5, Baudrate: 1048576, Sleep Time: 0.6, Flash Timeout: 15
+08/10/2024 10:26:44 display_status INFO     Reading from status.json
+08/10/2024 10:26:44 display_status INFO     Setting up serial port
+08/10/2024 10:26:44 display_status INFO     Found 2 serial ports
+08/10/2024 10:26:44 display_status INFO     Searching sender card on port: COM5
+08/10/2024 10:26:44 display_status INFO     COM5 opened
+08/10/2024 10:26:44 display_status DEBUG    Sending command: 55 AA 00 AA FE 00 00 00 00 00 00 00 02 00 00 00 02 00 01 57
+08/10/2024 10:26:49 display_status INFO     COM5 closed
+08/10/2024 10:26:49 display_status INFO     Searching sender card on port: COM6
+08/10/2024 10:26:49 display_status INFO     COM6 opened
+08/10/2024 10:26:49 display_status DEBUG    Sending command: 55 AA 00 AA FE 00 00 00 00 00 00 00 02 00 00 00 02 00 01 57
+08/10/2024 10:26:49 display_status ERROR    Error communicating with device: list index out of range
+08/10/2024 10:26:49 display_status INFO     COM6 closed
+08/10/2024 10:26:49 display_status INFO     Found 0 device(s)
+08/10/2024 10:26:49 display_status INFO     EXIT CODE: 2, NO DEVICE - make sure a valid controller is connected, that the correct baudrate is defined in config.json and ensure the NOVA LCT is not running on the host system 
+This can also mean that you don't run the tool as administrator
+08/10/2024 10:27:40 display_status INFO     *********************************************************************************************************************************************
+08/10/2024 10:27:40 display_status INFO     5Eyes - Starting Display Status Checks
+08/10/2024 10:27:40 display_status INFO     Loading config.json
+08/10/2024 10:27:40 display_status INFO     Version: 1.0.5, Baudrate: 1048576, Sleep Time: 0.6, Flash Timeout: 15
+08/10/2024 10:27:40 display_status INFO     Reading from status.json
+08/10/2024 10:27:40 display_status INFO     Setting up serial port
+08/10/2024 10:27:40 display_status INFO     Found 2 serial ports
+08/10/2024 10:27:40 display_status INFO     Searching sender card on port: COM5
+08/10/2024 10:27:40 display_status INFO     COM5 opened
+08/10/2024 10:27:40 display_status DEBUG    Sending command: 55 AA 00 AA FE 00 00 00 00 00 00 00 02 00 00 00 02 00 01 57
+08/10/2024 10:27:45 display_status INFO     COM5 closed
+08/10/2024 10:27:45 display_status INFO     Searching sender card on port: COM6
+08/10/2024 10:27:45 display_status INFO     COM6 opened
+08/10/2024 10:27:45 display_status DEBUG    Sending command: 55 AA 00 AA FE 00 00 00 00 00 00 00 02 00 00 00 02 00 01 57
+08/10/2024 10:27:45 display_status ERROR    Error communicating with device: list index out of range
+08/10/2024 10:27:45 display_status INFO     COM6 closed
+08/10/2024 10:27:45 display_status INFO     Found 0 device(s)
+08/10/2024 10:27:45 display_status INFO     EXIT CODE: 2, NO DEVICE - make sure a valid controller is connected, that the correct baudrate is defined in config.json and ensure the NOVA LCT is not running on the host system 
+This can also mean that you don't run the tool as administrator
+08/10/2024 10:37:17 display_status INFO     *********************************************************************************************************************************************
+08/10/2024 10:37:17 display_status INFO     5Eyes - Starting Display Status Checks
+08/10/2024 10:37:17 display_status INFO     Loading config.json
+08/10/2024 10:37:17 display_status INFO     Version: 1.0.5, Baudrate: 1048576, Sleep Time: 0.6, Flash Timeout: 15
+08/10/2024 10:37:17 display_status INFO     Reading from status.json
+08/10/2024 10:37:17 display_status INFO     Setting up serial port
+08/10/2024 10:37:17 display_status INFO     Found 2 serial ports
+08/10/2024 10:37:17 display_status INFO     Searching sender card on port: COM5
+08/10/2024 10:37:17 display_status INFO     COM5 opened
+08/10/2024 10:37:17 display_status DEBUG    Sending command: 55 AA 00 AA FE 00 00 00 00 00 00 00 02 00 00 00 02 00 01 57
+08/10/2024 10:37:22 display_status INFO     COM5 closed
+08/10/2024 10:37:22 display_status INFO     Searching sender card on port: COM6
+08/10/2024 10:37:22 display_status INFO     COM6 opened
+08/10/2024 10:37:22 display_status DEBUG    Sending command: 55 AA 00 AA FE 00 00 00 00 00 00 00 02 00 00 00 02 00 01 57
+08/10/2024 10:37:22 display_status DEBUG    Received data:AA 55 00 AA 00 FE 00 00 00 00 00 00 02 00 00 00 02 00 01 11 13 57
+08/10/2024 10:37:22 display_status INFO     Device found on port: COM6 | USB Serial Port (COM6) | USB VID:PID=0403:6001 SER=5
+08/10/2024 10:37:27 display_status INFO     COM6 closed
+08/10/2024 10:37:27 display_status INFO     Found 1 device(s)
+08/10/2024 10:37:27 display_status INFO     *******************    DEVICE 0   *******************
+08/10/2024 10:37:27 display_status INFO     Connecting to device on COM6
+08/10/2024 10:37:27 display_status INFO     Opened device on port: COM6
+08/10/2024 10:37:27 display_status INFO     =============================================================================================================================================
+08/10/2024 10:37:27 display_status INFO     Connecting to receiver number: 1
+08/10/2024 10:37:28 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 01 00 00 00 00 00 00 00 02 00 08 45 B9 56
+08/10/2024 10:37:28 display_status INFO     =============================================================================================================================================
+08/10/2024 10:37:28 display_status INFO     Connecting to receiver number: 2
+08/10/2024 10:37:28 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 02 00 00 00 00 00 00 00 02 00 08 45 BA 56
+08/10/2024 10:37:28 display_status INFO     =============================================================================================================================================
+08/10/2024 10:37:28 display_status INFO     Connecting to receiver number: 3
+08/10/2024 10:37:29 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 03 00 00 00 00 00 00 00 02 00 08 45 BB 56
+08/10/2024 10:37:29 display_status INFO     =============================================================================================================================================
+08/10/2024 10:37:29 display_status INFO     Connecting to receiver number: 4
+08/10/2024 10:37:29 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 04 00 00 00 00 00 00 00 02 00 08 45 BC 56
+08/10/2024 10:37:29 display_status INFO     =============================================================================================================================================
+08/10/2024 10:37:29 display_status INFO     Connecting to receiver number: 5
+08/10/2024 10:37:30 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 05 00 00 00 00 00 00 00 02 00 08 45 BD 56
+08/10/2024 10:37:30 display_status INFO     =============================================================================================================================================
+08/10/2024 10:37:30 display_status INFO     Connecting to receiver number: 6
+08/10/2024 10:37:31 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 06 00 00 00 00 00 00 00 02 00 08 45 BE 56
+08/10/2024 10:37:31 display_status INFO     =============================================================================================================================================
+08/10/2024 10:37:31 display_status INFO     Connecting to receiver number: 7
+08/10/2024 10:37:31 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 07 00 00 00 00 00 00 00 02 00 08 45 BF 56
+08/10/2024 10:37:31 display_status INFO     =============================================================================================================================================
+08/10/2024 10:37:31 display_status INFO     Connecting to receiver number: 8
+08/10/2024 10:37:32 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 08 00 00 00 00 00 00 00 02 00 08 45 C0 56
+08/10/2024 10:37:32 display_status INFO     =============================================================================================================================================
+08/10/2024 10:37:32 display_status INFO     Connecting to receiver number: 9
+08/10/2024 10:37:32 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 09 00 00 00 00 00 00 00 02 00 08 45 C1 56
+08/10/2024 10:37:32 display_status INFO     =============================================================================================================================================
+08/10/2024 10:37:32 display_status INFO     Connecting to receiver number: 10
+08/10/2024 10:37:33 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 0A 00 00 00 00 00 00 00 02 00 08 45 C2 56
+08/10/2024 10:37:33 display_status INFO     =============================================================================================================================================
+08/10/2024 10:37:33 display_status INFO     Connecting to receiver number: 11
+08/10/2024 10:37:34 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 0B 00 00 00 00 00 00 00 02 00 08 45 C3 56
+08/10/2024 10:37:34 display_status INFO     =============================================================================================================================================
+08/10/2024 10:37:34 display_status INFO     Connecting to receiver number: 12
+08/10/2024 10:37:34 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 0C 00 00 00 00 00 00 00 02 00 08 45 C4 56
+08/10/2024 10:37:34 display_status INFO     =============================================================================================================================================
+08/10/2024 10:37:34 display_status INFO     Connecting to receiver number: 13
+08/10/2024 10:37:35 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 0D 00 00 00 00 00 00 00 02 00 08 45 C5 56
+08/10/2024 10:37:35 display_status INFO     =============================================================================================================================================
+08/10/2024 10:37:35 display_status INFO     Connecting to receiver number: 14
+08/10/2024 10:37:36 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 0E 00 00 00 00 00 00 00 02 00 08 45 C6 56
+08/10/2024 10:37:36 display_status INFO     =============================================================================================================================================
+08/10/2024 10:37:36 display_status INFO     Connecting to receiver number: 15
+08/10/2024 10:37:36 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 0F 00 00 00 00 00 00 00 02 00 08 45 C7 56
+08/10/2024 10:37:36 display_status INFO     =============================================================================================================================================
+08/10/2024 10:37:36 display_status INFO     Connecting to receiver number: 16
+08/10/2024 10:37:37 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 10 00 00 00 00 00 00 00 02 00 08 45 C8 56
+08/10/2024 10:37:37 display_status INFO     =============================================================================================================================================
+08/10/2024 10:37:37 display_status INFO     Connecting to receiver number: 17
+08/10/2024 10:37:37 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 11 00 00 00 00 00 00 00 02 00 08 45 C9 56
+08/10/2024 10:37:37 display_status INFO     =============================================================================================================================================
+08/10/2024 10:37:37 display_status INFO     Connecting to receiver number: 18
+08/10/2024 10:37:38 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 12 00 00 00 00 00 00 00 02 00 08 45 CA 56
+08/10/2024 10:37:38 display_status INFO     =============================================================================================================================================
+08/10/2024 10:37:38 display_status INFO     Connecting to receiver number: 19
+08/10/2024 10:37:39 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 13 00 00 00 00 00 00 00 02 00 08 45 CB 56
+08/10/2024 10:37:39 display_status INFO     =============================================================================================================================================
+08/10/2024 10:37:39 display_status INFO     Connecting to receiver number: 20
+08/10/2024 10:37:39 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 14 00 00 00 00 00 00 00 02 00 08 45 CC 56
+08/10/2024 10:37:39 display_status INFO     =============================================================================================================================================
+08/10/2024 10:37:39 display_status INFO     Connecting to receiver number: 21
+08/10/2024 10:37:40 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 15 00 00 00 00 00 00 00 02 00 08 45 CD 56
+08/10/2024 10:37:40 display_status INFO     =============================================================================================================================================
+08/10/2024 10:37:40 display_status INFO     Connecting to receiver number: 22
+08/10/2024 10:37:40 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 16 00 00 00 00 00 00 00 02 00 08 45 CE 56
+08/10/2024 10:37:40 display_status INFO     =============================================================================================================================================
+08/10/2024 10:37:40 display_status INFO     Connecting to receiver number: 23
+08/10/2024 10:37:41 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 17 00 00 00 00 00 00 00 02 00 08 45 CF 56
+08/10/2024 10:37:41 display_status INFO     =============================================================================================================================================
+08/10/2024 10:37:41 display_status INFO     Connecting to receiver number: 24
+08/10/2024 10:37:42 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 18 00 00 00 00 00 00 00 02 00 08 45 D0 56
+08/10/2024 10:37:42 display_status INFO     =============================================================================================================================================
+08/10/2024 10:37:42 display_status INFO     Connecting to receiver number: 25
+08/10/2024 10:37:42 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 19 00 00 00 00 00 00 00 02 00 08 45 D1 56
+08/10/2024 10:37:42 display_status INFO     =============================================================================================================================================
+08/10/2024 10:37:42 display_status INFO     Connecting to receiver number: 26
+08/10/2024 10:37:43 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 1A 00 00 00 00 00 00 00 02 00 08 45 D2 56
+08/10/2024 10:37:43 display_status INFO     =============================================================================================================================================
+08/10/2024 10:37:43 display_status INFO     Connecting to receiver number: 27
+08/10/2024 10:37:43 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 1B 00 00 00 00 00 00 00 02 00 08 45 D3 56
+08/10/2024 10:37:43 display_status INFO     =============================================================================================================================================
+08/10/2024 10:37:43 display_status INFO     Connecting to receiver number: 28
+08/10/2024 10:37:44 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 1C 00 00 00 00 00 00 00 02 00 08 45 D4 56
+08/10/2024 10:37:44 display_status INFO     =============================================================================================================================================
+08/10/2024 10:37:44 display_status INFO     Connecting to receiver number: 29
+08/10/2024 10:37:45 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 1D 00 00 00 00 00 00 00 02 00 08 45 D5 56
+08/10/2024 10:37:45 display_status INFO     =============================================================================================================================================
+08/10/2024 10:37:45 display_status INFO     Connecting to receiver number: 30
+08/10/2024 10:37:45 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 1E 00 00 00 00 00 00 00 02 00 08 45 D6 56
+08/10/2024 10:37:45 display_status INFO     =============================================================================================================================================
+08/10/2024 10:37:45 display_status INFO     Connecting to receiver number: 31
+08/10/2024 10:37:46 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 1F 00 00 00 00 00 00 00 02 00 08 45 D7 56
+08/10/2024 10:37:46 display_status INFO     =============================================================================================================================================
+08/10/2024 10:37:46 display_status INFO     Connecting to receiver number: 32
+08/10/2024 10:37:46 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 20 00 00 00 00 00 00 00 02 00 08 45 D8 56
+08/10/2024 10:37:46 display_status INFO     =============================================================================================================================================
+08/10/2024 10:37:46 display_status INFO     Connecting to receiver number: 33
+08/10/2024 10:37:47 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 21 00 00 00 00 00 00 00 02 00 08 45 D9 56
+08/10/2024 10:37:47 display_status INFO     =============================================================================================================================================
+08/10/2024 10:37:47 display_status INFO     Connecting to receiver number: 34
+08/10/2024 10:37:48 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 22 00 00 00 00 00 00 00 02 00 08 45 DA 56
+08/10/2024 10:37:48 display_status INFO     =============================================================================================================================================
+08/10/2024 10:37:48 display_status INFO     Connecting to receiver number: 35
+08/10/2024 10:37:48 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 23 00 00 00 00 00 00 00 02 00 08 45 DB 56
+08/10/2024 10:37:48 display_status INFO     =============================================================================================================================================
+08/10/2024 10:37:48 display_status INFO     Connecting to receiver number: 36
+08/10/2024 10:37:49 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 24 00 00 00 00 00 00 00 02 00 08 45 DC 56
+08/10/2024 10:37:49 display_status INFO     =============================================================================================================================================
+08/10/2024 10:37:49 display_status INFO     Connecting to receiver number: 37
+08/10/2024 10:37:49 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 25 00 00 00 00 00 00 00 02 00 08 45 DD 56
+08/10/2024 10:37:49 display_status INFO     =============================================================================================================================================
+08/10/2024 10:37:49 display_status INFO     Connecting to receiver number: 38
+08/10/2024 10:37:50 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 26 00 00 00 00 00 00 00 02 00 08 45 DE 56
+08/10/2024 10:37:50 display_status INFO     =============================================================================================================================================
+08/10/2024 10:37:50 display_status INFO     Connecting to receiver number: 39
+08/10/2024 10:37:51 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 27 00 00 00 00 00 00 00 02 00 08 45 DF 56
+08/10/2024 10:37:51 display_status INFO     =============================================================================================================================================
+08/10/2024 10:37:51 display_status INFO     Connecting to receiver number: 40
+08/10/2024 10:37:51 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 28 00 00 00 00 00 00 00 02 00 08 45 E0 56
+08/10/2024 10:37:51 display_status INFO     =============================================================================================================================================
+08/10/2024 10:37:51 display_status INFO     Connecting to receiver number: 41
+08/10/2024 10:37:52 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 29 00 00 00 00 00 00 00 02 00 08 45 E1 56
+08/10/2024 10:37:52 display_status INFO     =============================================================================================================================================
+08/10/2024 10:37:52 display_status INFO     Connecting to receiver number: 42
+08/10/2024 10:37:52 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 2A 00 00 00 00 00 00 00 02 00 08 45 E2 56
+08/10/2024 10:37:52 display_status INFO     =============================================================================================================================================
+08/10/2024 10:37:52 display_status INFO     Connecting to receiver number: 43
+08/10/2024 10:37:53 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 2B 00 00 00 00 00 00 00 02 00 08 45 E3 56
+08/10/2024 10:37:53 display_status INFO     =============================================================================================================================================
+08/10/2024 10:37:53 display_status INFO     Connecting to receiver number: 44
+08/10/2024 10:37:54 display_status DEBUG    Received data: AA 55 01 15 00 FE 01 00 2C 00 00 00 00 00 00 00 02 00 08 45 E5 56
+08/10/2024 10:37:54 display_status ERROR    Command failed due to time out (time out on trying to access devices connected to a sending card)
+08/10/2024 10:37:54 display_status INFO     EXIT CODE: 0, NO of receiver cards 44
+08/10/2024 11:02:27 display_status INFO     *********************************************************************************************************************************************
+08/10/2024 11:02:27 display_status INFO     5Eyes - Starting Display Status Checks
+08/10/2024 11:02:27 display_status INFO     Loading config.json
+08/10/2024 11:02:27 display_status INFO     Version: 1.0.5, Baudrate: 1048576, Sleep Time: 0.6, Flash Timeout: 15
+08/10/2024 11:02:27 display_status INFO     Reading from status.json
+08/10/2024 11:02:27 display_status INFO     Setting up serial port
+08/10/2024 11:02:27 display_status INFO     Found 2 serial ports
+08/10/2024 11:02:27 display_status INFO     Searching sender card on port: COM5
+08/10/2024 11:02:27 display_status INFO     COM5 opened
+08/10/2024 11:02:27 display_status DEBUG    Sending command: 55 AA 00 AA FE 00 00 00 00 00 00 00 02 00 00 00 02 00 01 57
+08/10/2024 11:02:27 display_status ERROR    Error communicating with device: list index out of range
+08/10/2024 11:02:27 display_status INFO     COM5 closed
+08/10/2024 11:02:27 display_status INFO     Searching sender card on port: COM6
+08/10/2024 11:02:27 display_status INFO     COM6 opened
+08/10/2024 11:02:27 display_status DEBUG    Sending command: 55 AA 00 AA FE 00 00 00 00 00 00 00 02 00 00 00 02 00 01 57
+08/10/2024 11:02:27 display_status DEBUG    Received data:AA 55 00 AA 00 FE 00 00 00 00 00 00 02 00 00 00 02 00 01 11 13 57
+08/10/2024 11:02:27 display_status INFO     Device found on port: COM6 | USB Serial Port (COM6) | USB VID:PID=0403:6001 SER=5
+08/10/2024 11:02:32 display_status INFO     COM6 closed
+08/10/2024 11:02:32 display_status INFO     Found 1 device(s)
+08/10/2024 11:02:32 display_status INFO     *******************    DEVICE 0   *******************
+08/10/2024 11:02:32 display_status INFO     Connecting to device on COM6
+08/10/2024 11:02:32 display_status INFO     Opened device on port: COM6
+08/10/2024 11:02:32 display_status INFO     =============================================================================================================================================
+08/10/2024 11:02:32 display_status INFO     Connecting to receiver number: 1
+08/10/2024 11:02:33 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 01 00 00 00 00 00 00 00 02 00 08 45 B9 56
+08/10/2024 11:02:33 display_status INFO     =============================================================================================================================================
+08/10/2024 11:02:33 display_status INFO     Connecting to receiver number: 2
+08/10/2024 11:02:33 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 02 00 00 00 00 00 00 00 02 00 08 45 BA 56
+08/10/2024 11:02:33 display_status INFO     =============================================================================================================================================
+08/10/2024 11:02:33 display_status INFO     Connecting to receiver number: 3
+08/10/2024 11:02:34 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 03 00 00 00 00 00 00 00 02 00 08 45 BB 56
+08/10/2024 11:02:34 display_status INFO     =============================================================================================================================================
+08/10/2024 11:02:34 display_status INFO     Connecting to receiver number: 4
+08/10/2024 11:02:34 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 04 00 00 00 00 00 00 00 02 00 08 45 BC 56
+08/10/2024 11:02:34 display_status INFO     =============================================================================================================================================
+08/10/2024 11:02:34 display_status INFO     Connecting to receiver number: 5
+08/10/2024 11:02:35 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 05 00 00 00 00 00 00 00 02 00 08 45 BD 56
+08/10/2024 11:02:35 display_status INFO     =============================================================================================================================================
+08/10/2024 11:02:35 display_status INFO     Connecting to receiver number: 6
+08/10/2024 11:02:36 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 06 00 00 00 00 00 00 00 02 00 08 45 BE 56
+08/10/2024 11:02:36 display_status INFO     =============================================================================================================================================
+08/10/2024 11:02:36 display_status INFO     Connecting to receiver number: 7
+08/10/2024 11:02:36 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 07 00 00 00 00 00 00 00 02 00 08 45 BF 56
+08/10/2024 11:02:36 display_status INFO     =============================================================================================================================================
+08/10/2024 11:02:36 display_status INFO     Connecting to receiver number: 8
+08/10/2024 11:02:37 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 08 00 00 00 00 00 00 00 02 00 08 45 C0 56
+08/10/2024 11:02:37 display_status INFO     =============================================================================================================================================
+08/10/2024 11:02:37 display_status INFO     Connecting to receiver number: 9
+08/10/2024 11:02:37 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 09 00 00 00 00 00 00 00 02 00 08 45 C1 56
+08/10/2024 11:02:37 display_status INFO     =============================================================================================================================================
+08/10/2024 11:02:37 display_status INFO     Connecting to receiver number: 10
+08/10/2024 11:02:38 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 0A 00 00 00 00 00 00 00 02 00 08 45 C2 56
+08/10/2024 11:02:38 display_status INFO     =============================================================================================================================================
+08/10/2024 11:02:38 display_status INFO     Connecting to receiver number: 11
+08/10/2024 11:02:39 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 0B 00 00 00 00 00 00 00 02 00 08 45 C3 56
+08/10/2024 11:02:39 display_status INFO     =============================================================================================================================================
+08/10/2024 11:02:39 display_status INFO     Connecting to receiver number: 12
+08/10/2024 11:02:39 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 0C 00 00 00 00 00 00 00 02 00 08 45 C4 56
+08/10/2024 11:02:39 display_status INFO     =============================================================================================================================================
+08/10/2024 11:02:39 display_status INFO     Connecting to receiver number: 13
+08/10/2024 11:02:40 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 0D 00 00 00 00 00 00 00 02 00 08 45 C5 56
+08/10/2024 11:02:40 display_status INFO     =============================================================================================================================================
+08/10/2024 11:02:40 display_status INFO     Connecting to receiver number: 14
+08/10/2024 11:02:40 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 0E 00 00 00 00 00 00 00 02 00 08 45 C6 56
+08/10/2024 11:02:40 display_status INFO     =============================================================================================================================================
+08/10/2024 11:02:40 display_status INFO     Connecting to receiver number: 15
+08/10/2024 11:02:41 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 0F 00 00 00 00 00 00 00 02 00 08 45 C7 56
+08/10/2024 11:02:41 display_status INFO     =============================================================================================================================================
+08/10/2024 11:02:41 display_status INFO     Connecting to receiver number: 16
+08/10/2024 11:02:42 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 10 00 00 00 00 00 00 00 02 00 08 45 C8 56
+08/10/2024 11:02:42 display_status INFO     =============================================================================================================================================
+08/10/2024 11:02:42 display_status INFO     Connecting to receiver number: 17
+08/10/2024 11:02:42 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 11 00 00 00 00 00 00 00 02 00 08 45 C9 56
+08/10/2024 11:02:42 display_status INFO     =============================================================================================================================================
+08/10/2024 11:02:42 display_status INFO     Connecting to receiver number: 18
+08/10/2024 11:02:43 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 12 00 00 00 00 00 00 00 02 00 08 45 CA 56
+08/10/2024 11:02:43 display_status INFO     =============================================================================================================================================
+08/10/2024 11:02:43 display_status INFO     Connecting to receiver number: 19
+08/10/2024 11:02:43 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 13 00 00 00 00 00 00 00 02 00 08 45 CB 56
+08/10/2024 11:02:43 display_status INFO     =============================================================================================================================================
+08/10/2024 11:02:43 display_status INFO     Connecting to receiver number: 20
+08/10/2024 11:02:44 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 14 00 00 00 00 00 00 00 02 00 08 45 CC 56
+08/10/2024 11:02:44 display_status INFO     =============================================================================================================================================
+08/10/2024 11:02:44 display_status INFO     Connecting to receiver number: 21
+08/10/2024 11:02:45 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 15 00 00 00 00 00 00 00 02 00 08 45 CD 56
+08/10/2024 11:02:45 display_status INFO     =============================================================================================================================================
+08/10/2024 11:02:45 display_status INFO     Connecting to receiver number: 22
+08/10/2024 11:02:45 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 16 00 00 00 00 00 00 00 02 00 08 45 CE 56
+08/10/2024 11:02:45 display_status INFO     =============================================================================================================================================
+08/10/2024 11:02:45 display_status INFO     Connecting to receiver number: 23
+08/10/2024 11:02:46 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 17 00 00 00 00 00 00 00 02 00 08 45 CF 56
+08/10/2024 11:02:46 display_status INFO     =============================================================================================================================================
+08/10/2024 11:02:46 display_status INFO     Connecting to receiver number: 24
+08/10/2024 11:02:46 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 18 00 00 00 00 00 00 00 02 00 08 45 D0 56
+08/10/2024 11:02:46 display_status INFO     =============================================================================================================================================
+08/10/2024 11:02:46 display_status INFO     Connecting to receiver number: 25
+08/10/2024 11:02:47 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 19 00 00 00 00 00 00 00 02 00 08 45 D1 56
+08/10/2024 11:02:47 display_status INFO     =============================================================================================================================================
+08/10/2024 11:02:47 display_status INFO     Connecting to receiver number: 26
+08/10/2024 11:02:48 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 1A 00 00 00 00 00 00 00 02 00 08 45 D2 56
+08/10/2024 11:02:48 display_status INFO     =============================================================================================================================================
+08/10/2024 11:02:48 display_status INFO     Connecting to receiver number: 27
+08/10/2024 11:02:48 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 1B 00 00 00 00 00 00 00 02 00 08 45 D3 56
+08/10/2024 11:02:48 display_status INFO     =============================================================================================================================================
+08/10/2024 11:02:48 display_status INFO     Connecting to receiver number: 28
+08/10/2024 11:02:49 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 1C 00 00 00 00 00 00 00 02 00 08 45 D4 56
+08/10/2024 11:02:49 display_status INFO     =============================================================================================================================================
+08/10/2024 11:02:49 display_status INFO     Connecting to receiver number: 29
+08/10/2024 11:02:49 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 1D 00 00 00 00 00 00 00 02 00 08 45 D5 56
+08/10/2024 11:02:49 display_status INFO     =============================================================================================================================================
+08/10/2024 11:02:49 display_status INFO     Connecting to receiver number: 30
+08/10/2024 11:02:50 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 1E 00 00 00 00 00 00 00 02 00 08 45 D6 56
+08/10/2024 11:02:50 display_status INFO     =============================================================================================================================================
+08/10/2024 11:02:50 display_status INFO     Connecting to receiver number: 31
+08/10/2024 11:02:51 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 1F 00 00 00 00 00 00 00 02 00 08 45 D7 56
+08/10/2024 11:02:51 display_status INFO     =============================================================================================================================================
+08/10/2024 11:02:51 display_status INFO     Connecting to receiver number: 32
+08/10/2024 11:02:51 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 20 00 00 00 00 00 00 00 02 00 08 45 D8 56
+08/10/2024 11:02:51 display_status INFO     =============================================================================================================================================
+08/10/2024 11:02:51 display_status INFO     Connecting to receiver number: 33
+08/10/2024 11:02:52 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 21 00 00 00 00 00 00 00 02 00 08 45 D9 56
+08/10/2024 11:02:52 display_status INFO     =============================================================================================================================================
+08/10/2024 11:02:52 display_status INFO     Connecting to receiver number: 34
+08/10/2024 11:02:53 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 22 00 00 00 00 00 00 00 02 00 08 45 DA 56
+08/10/2024 11:02:53 display_status INFO     =============================================================================================================================================
+08/10/2024 11:02:53 display_status INFO     Connecting to receiver number: 35
+08/10/2024 11:02:53 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 23 00 00 00 00 00 00 00 02 00 08 45 DB 56
+08/10/2024 11:02:53 display_status INFO     =============================================================================================================================================
+08/10/2024 11:02:53 display_status INFO     Connecting to receiver number: 36
+08/10/2024 11:02:54 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 24 00 00 00 00 00 00 00 02 00 08 45 DC 56
+08/10/2024 11:02:54 display_status INFO     =============================================================================================================================================
+08/10/2024 11:02:54 display_status INFO     Connecting to receiver number: 37
+08/10/2024 11:02:54 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 25 00 00 00 00 00 00 00 02 00 08 45 DD 56
+08/10/2024 11:02:54 display_status INFO     =============================================================================================================================================
+08/10/2024 11:02:54 display_status INFO     Connecting to receiver number: 38
+08/10/2024 11:02:55 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 26 00 00 00 00 00 00 00 02 00 08 45 DE 56
+08/10/2024 11:02:55 display_status INFO     =============================================================================================================================================
+08/10/2024 11:02:55 display_status INFO     Connecting to receiver number: 39
+08/10/2024 11:02:56 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 27 00 00 00 00 00 00 00 02 00 08 45 DF 56
+08/10/2024 11:02:56 display_status INFO     =============================================================================================================================================
+08/10/2024 11:02:56 display_status INFO     Connecting to receiver number: 40
+08/10/2024 11:02:56 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 28 00 00 00 00 00 00 00 02 00 08 45 E0 56
+08/10/2024 11:02:56 display_status INFO     =============================================================================================================================================
+08/10/2024 11:02:56 display_status INFO     Connecting to receiver number: 41
+08/10/2024 11:02:57 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 29 00 00 00 00 00 00 00 02 00 08 45 E1 56
+08/10/2024 11:02:57 display_status INFO     =============================================================================================================================================
+08/10/2024 11:02:57 display_status INFO     Connecting to receiver number: 42
+08/10/2024 11:02:57 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 2A 00 00 00 00 00 00 00 02 00 08 45 E2 56
+08/10/2024 11:02:57 display_status INFO     =============================================================================================================================================
+08/10/2024 11:02:57 display_status INFO     Connecting to receiver number: 43
+08/10/2024 11:02:58 display_status DEBUG    Received data: AA 55 00 15 00 FE 01 00 2B 00 00 00 00 00 00 00 02 00 08 45 E3 56
+08/10/2024 11:02:58 display_status INFO     =============================================================================================================================================
+08/10/2024 11:02:58 display_status INFO     Connecting to receiver number: 44
+08/10/2024 11:02:59 display_status DEBUG    Received data: AA 55 01 15 00 FE 01 00 2C 00 00 00 00 00 00 00 02 00 08 45 E5 56
+08/10/2024 11:02:59 display_status ERROR    Command failed due to time out (time out on trying to access devices connected to a sending card)
+08/10/2024 11:02:59 display_status INFO     EXIT CODE: 0, NO of receiver cards 44

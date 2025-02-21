@@ -1,0 +1,17 @@
+{
+    "/dev/ttyUSB0": {
+        "lastUpdated": "14/02/2025 16:17",
+        "connectedControllers": 0,
+        "targetPort": "/dev/ttyUSB0",
+        "controllerDescription": "CP2102N USB to UART Bridge Controller",
+        "controllerHardware": "USB VID:PID=10C4:EA60 SER=aa90447a663ded119b17214de31d861e LOCATION=1-1",
+        "controllerModel": "MSD300/MCTRL300"
+    },
+    "/dev/ttyUSB1": {
+        "lastUpdated": "14/02/2025 16:17",
+        "connectedControllers": 1,
+        "targetPort": "/dev/ttyUSB1",
+        "controllerDescription": "CP2102N USB to UART Bridge Controller",
+        "controllerHardware": "USB VID:PID=10C4:EA60 SER=b43de62b663ded11a11e244de31d861e LOCATION=1-2"
+    }
+}

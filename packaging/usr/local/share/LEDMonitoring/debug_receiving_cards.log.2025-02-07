@@ -1,0 +1,23 @@
+08/02/2025 00:00:00 display_status INFO     /dev/ttyS4 closed
+08/02/2025 00:00:00 display_status INFO     Searching sender card on port: /dev/ttyUSB0
+08/02/2025 00:00:00 display_status INFO     /dev/ttyUSB0 opened
+08/02/2025 00:00:00 display_status DEBUG    Sending command: 55 AA 00 AA FE 00 00 00 00 00 00 00 02 00 00 00 02 00 01 57
+08/02/2025 00:00:00 display_status DEBUG    Received data:AA 55 00 AA 00 FE 00 00 00 00 00 00 02 00 00 00 02 00 01 00 02 57
+08/02/2025 00:00:00 display_status INFO     Device found on port: /dev/ttyUSB0 | CP2102N USB to UART Bridge Controller | USB VID:PID=10C4:EA60 SER=aa90447a663ded119b17214de31d861e LOCATION=1-1
+08/02/2025 00:00:00 display_status INFO     /dev/ttyUSB0 closed
+08/02/2025 00:00:00 display_status INFO     Searching sender card on port: /dev/ttyUSB1
+08/02/2025 00:00:00 display_status INFO     /dev/ttyUSB1 opened
+08/02/2025 00:00:00 display_status DEBUG    Sending command: 55 AA 00 AA FE 00 00 00 00 00 00 00 02 00 00 00 02 00 01 57
+08/02/2025 00:00:01 display_status DEBUG    Received data:AA 55 00 AA 00 FE 00 00 00 00 00 00 02 00 00 00 02 00 01 00 02 57
+08/02/2025 00:00:01 display_status INFO     Device found on port: /dev/ttyUSB1 | CP2102N USB to UART Bridge Controller | USB VID:PID=10C4:EA60 SER=b43de62b663ded11a11e244de31d861e LOCATION=1-2
+08/02/2025 00:00:01 display_status INFO     /dev/ttyUSB1 closed
+08/02/2025 00:00:01 display_status INFO     Found 2 device(s)
+08/02/2025 00:00:01 display_status INFO     *******************    DEVICE 0   *******************
+08/02/2025 00:00:01 display_status INFO     Connecting to device on /dev/ttyUSB0
+08/02/2025 00:00:01 display_status INFO     Opened device on port: /dev/ttyUSB0
+08/02/2025 00:00:01 display_status INFO     =============================================================================================================================================
+08/02/2025 00:00:01 display_status INFO     Connecting to receiver number: 1
+08/02/2025 00:00:01 display_status WARNING  No data available at the input buffer
+08/02/2025 00:00:01 display_status INFO     Writing to JSON file
+08/02/2025 00:00:01 display_status INFO     EXIT CODE: 2, NO of receiver cards 0 EXPECTED 2.0
+08/02/2025 00:00:01 display_status INFO     Sent 'done' to server.

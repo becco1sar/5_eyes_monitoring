@@ -1,0 +1,160 @@
+18/10/2024 09:45:59 display_status INFO     *********************************************************************************************************************************************
+18/10/2024 09:45:59 display_status INFO     5Eyes - Starting Display Status Checks
+18/10/2024 09:45:59 display_status INFO     Loading config.json
+18/10/2024 09:45:59 display_status INFO     Version: 1.0.5, Baudrate: 115200, Sleep Time: 0.6, Flash Timeout: 15
+18/10/2024 09:45:59 display_status INFO     Reading from status.json
+18/10/2024 09:45:59 display_status INFO     Setting up serial port
+18/10/2024 09:45:59 display_status INFO     Found 9 serial ports
+18/10/2024 09:45:59 display_status INFO     Searching sender card on port: COM1
+18/10/2024 09:45:59 display_status INFO     COM1 opened
+18/10/2024 09:45:59 display_status DEBUG    Sending command: 55 AA 00 AA FE 00 00 00 00 00 00 00 02 00 00 00 02 00 01 57
+18/10/2024 09:45:59 display_status INFO     COM1 closed
+18/10/2024 09:45:59 display_status INFO     Searching sender card on port: COM2
+18/10/2024 09:45:59 display_status INFO     COM2 opened
+18/10/2024 09:45:59 display_status DEBUG    Sending command: 55 AA 00 AA FE 00 00 00 00 00 00 00 02 00 00 00 02 00 01 57
+18/10/2024 09:46:00 display_status INFO     COM2 closed
+18/10/2024 09:46:00 display_status INFO     Searching sender card on port: COM3
+18/10/2024 09:46:00 display_status INFO     COM3 opened
+18/10/2024 09:46:00 display_status DEBUG    Sending command: 55 AA 00 AA FE 00 00 00 00 00 00 00 02 00 00 00 02 00 01 57
+18/10/2024 09:46:01 display_status INFO     COM3 closed
+18/10/2024 09:46:01 display_status INFO     Searching sender card on port: COM4
+18/10/2024 09:46:01 display_status INFO     COM4 opened
+18/10/2024 09:46:01 display_status DEBUG    Sending command: 55 AA 00 AA FE 00 00 00 00 00 00 00 02 00 00 00 02 00 01 57
+18/10/2024 09:46:01 display_status INFO     COM4 closed
+18/10/2024 09:46:01 display_status INFO     Searching sender card on port: COM5
+18/10/2024 09:46:01 display_status INFO     COM5 opened
+18/10/2024 09:46:01 display_status DEBUG    Sending command: 55 AA 00 AA FE 00 00 00 00 00 00 00 02 00 00 00 02 00 01 57
+18/10/2024 09:46:02 display_status INFO     COM5 closed
+18/10/2024 09:46:02 display_status INFO     Searching sender card on port: COM6
+18/10/2024 09:46:02 display_status INFO     COM6 opened
+18/10/2024 09:46:02 display_status DEBUG    Sending command: 55 AA 00 AA FE 00 00 00 00 00 00 00 02 00 00 00 02 00 01 57
+18/10/2024 09:46:03 display_status INFO     COM6 closed
+18/10/2024 09:46:03 display_status INFO     Searching sender card on port: COM17
+18/10/2024 09:46:03 display_status ERROR    could not open port 'COM17': PermissionError(13, 'Access is denied.', None, 5)
+18/10/2024 09:46:03 display_status INFO     Searching sender card on port: COM18
+18/10/2024 09:46:03 display_status ERROR    could not open port 'COM18': PermissionError(13, 'Access is denied.', None, 5)
+18/10/2024 09:46:03 display_status INFO     Searching sender card on port: COM19
+18/10/2024 09:46:03 display_status ERROR    could not open port 'COM19': PermissionError(13, 'Access is denied.', None, 5)
+18/10/2024 09:46:03 display_status INFO     Found 0 device(s)
+18/10/2024 09:46:03 display_status INFO     EXIT CODE: 2, NO DEVICE - make sure a valid controller is connected, that the correct baudrate is defined in config.json and ensure the NOVA LCT is not running on the host system
+18/10/2024 10:10:00 display_status INFO     *********************************************************************************************************************************************
+18/10/2024 10:10:00 display_status INFO     5Eyes - Starting Display Status Checks
+18/10/2024 10:10:00 display_status INFO     Loading config.json
+18/10/2024 10:10:00 display_status INFO     Version: 1.0.5, Baudrate: 115200, Sleep Time: 0.6, Flash Timeout: 15
+18/10/2024 10:10:00 display_status INFO     Reading from status.json
+18/10/2024 10:10:00 display_status INFO     Setting up serial port
+18/10/2024 10:10:00 display_status INFO     Found 9 serial ports
+18/10/2024 10:10:00 display_status INFO     Searching sender card on port: COM1
+18/10/2024 10:10:00 display_status INFO     COM1 opened
+18/10/2024 10:10:00 display_status DEBUG    Sending command: 55 AA 00 AA FE 00 00 00 00 00 00 00 02 00 00 00 02 00 01 57
+18/10/2024 10:10:00 display_status INFO     COM1 closed
+18/10/2024 10:10:00 display_status INFO     Searching sender card on port: COM2
+18/10/2024 10:10:00 display_status INFO     COM2 opened
+18/10/2024 10:10:00 display_status DEBUG    Sending command: 55 AA 00 AA FE 00 00 00 00 00 00 00 02 00 00 00 02 00 01 57
+18/10/2024 10:10:01 display_status INFO     COM2 closed
+18/10/2024 10:10:01 display_status INFO     Searching sender card on port: COM3
+18/10/2024 10:10:01 display_status INFO     COM3 opened
+18/10/2024 10:10:01 display_status DEBUG    Sending command: 55 AA 00 AA FE 00 00 00 00 00 00 00 02 00 00 00 02 00 01 57
+18/10/2024 10:10:01 display_status INFO     COM3 closed
+18/10/2024 10:10:01 display_status INFO     Searching sender card on port: COM4
+18/10/2024 10:10:01 display_status INFO     COM4 opened
+18/10/2024 10:10:01 display_status DEBUG    Sending command: 55 AA 00 AA FE 00 00 00 00 00 00 00 02 00 00 00 02 00 01 57
+18/10/2024 10:10:02 display_status INFO     COM4 closed
+18/10/2024 10:10:02 display_status INFO     Searching sender card on port: COM5
+18/10/2024 10:10:02 display_status INFO     COM5 opened
+18/10/2024 10:10:02 display_status DEBUG    Sending command: 55 AA 00 AA FE 00 00 00 00 00 00 00 02 00 00 00 02 00 01 57
+18/10/2024 10:10:03 display_status INFO     COM5 closed
+18/10/2024 10:10:03 display_status INFO     Searching sender card on port: COM6
+18/10/2024 10:10:03 display_status INFO     COM6 opened
+18/10/2024 10:10:03 display_status DEBUG    Sending command: 55 AA 00 AA FE 00 00 00 00 00 00 00 02 00 00 00 02 00 01 57
+18/10/2024 10:10:03 display_status INFO     COM6 closed
+18/10/2024 10:10:03 display_status INFO     Searching sender card on port: COM17
+18/10/2024 10:10:03 display_status ERROR    could not open port 'COM17': PermissionError(13, 'Access is denied.', None, 5)
+18/10/2024 10:10:03 display_status INFO     Searching sender card on port: COM18
+18/10/2024 10:10:03 display_status ERROR    could not open port 'COM18': PermissionError(13, 'Access is denied.', None, 5)
+18/10/2024 10:10:03 display_status INFO     Searching sender card on port: COM19
+18/10/2024 10:10:03 display_status INFO     COM19 opened
+18/10/2024 10:10:03 display_status DEBUG    Sending command: 55 AA 00 AA FE 00 00 00 00 00 00 00 02 00 00 00 02 00 01 57
+18/10/2024 10:10:04 display_status INFO     COM19 closed
+18/10/2024 10:10:04 display_status INFO     Found 0 device(s)
+18/10/2024 10:10:04 display_status INFO     EXIT CODE: 2, NO DEVICE - make sure a valid controller is connected, that the correct baudrate is defined in config.json and ensure the NOVA LCT is not running on the host system
+18/10/2024 10:34:35 display_status INFO     *********************************************************************************************************************************************
+18/10/2024 10:34:35 display_status INFO     5Eyes - Starting Display Status Checks
+18/10/2024 10:34:35 display_status INFO     Loading config.json
+18/10/2024 10:34:35 display_status INFO     Version: 1.0.5, Baudrate: 115200, Sleep Time: 0.6, Flash Timeout: 15
+18/10/2024 10:34:35 display_status INFO     Reading from status.json
+18/10/2024 10:34:35 display_status INFO     Setting up serial port
+18/10/2024 10:34:35 display_status INFO     Found 9 serial ports
+18/10/2024 10:34:35 display_status INFO     Searching sender card on port: COM1
+18/10/2024 10:34:35 display_status INFO     COM1 opened
+18/10/2024 10:34:35 display_status DEBUG    Sending command: 55 AA 00 AA FE 00 00 00 00 00 00 00 02 00 00 00 02 00 01 57
+18/10/2024 10:34:35 display_status INFO     COM1 closed
+18/10/2024 10:34:35 display_status INFO     Searching sender card on port: COM2
+18/10/2024 10:34:35 display_status INFO     COM2 opened
+18/10/2024 10:34:35 display_status DEBUG    Sending command: 55 AA 00 AA FE 00 00 00 00 00 00 00 02 00 00 00 02 00 01 57
+18/10/2024 10:34:36 display_status INFO     COM2 closed
+18/10/2024 10:34:36 display_status INFO     Searching sender card on port: COM3
+18/10/2024 10:34:36 display_status INFO     COM3 opened
+18/10/2024 10:34:36 display_status DEBUG    Sending command: 55 AA 00 AA FE 00 00 00 00 00 00 00 02 00 00 00 02 00 01 57
+18/10/2024 10:34:37 display_status INFO     COM3 closed
+18/10/2024 10:34:37 display_status INFO     Searching sender card on port: COM4
+18/10/2024 10:34:37 display_status INFO     COM4 opened
+18/10/2024 10:34:37 display_status DEBUG    Sending command: 55 AA 00 AA FE 00 00 00 00 00 00 00 02 00 00 00 02 00 01 57
+18/10/2024 10:34:37 display_status INFO     COM4 closed
+18/10/2024 10:34:37 display_status INFO     Searching sender card on port: COM5
+18/10/2024 10:34:37 display_status INFO     COM5 opened
+18/10/2024 10:34:37 display_status DEBUG    Sending command: 55 AA 00 AA FE 00 00 00 00 00 00 00 02 00 00 00 02 00 01 57
+18/10/2024 10:34:38 display_status INFO     COM5 closed
+18/10/2024 10:34:38 display_status INFO     Searching sender card on port: COM6
+18/10/2024 10:34:38 display_status INFO     COM6 opened
+18/10/2024 10:34:38 display_status DEBUG    Sending command: 55 AA 00 AA FE 00 00 00 00 00 00 00 02 00 00 00 02 00 01 57
+18/10/2024 10:34:38 display_status INFO     COM6 closed
+18/10/2024 10:34:38 display_status INFO     Searching sender card on port: COM17
+18/10/2024 10:34:38 display_status ERROR    could not open port 'COM17': PermissionError(13, 'Access is denied.', None, 5)
+18/10/2024 10:34:38 display_status INFO     Searching sender card on port: COM18
+18/10/2024 10:34:38 display_status ERROR    could not open port 'COM18': PermissionError(13, 'Access is denied.', None, 5)
+18/10/2024 10:34:38 display_status INFO     Searching sender card on port: COM19
+18/10/2024 10:34:38 display_status INFO     COM19 opened
+18/10/2024 10:34:38 display_status DEBUG    Sending command: 55 AA 00 AA FE 00 00 00 00 00 00 00 02 00 00 00 02 00 01 57
+18/10/2024 10:34:39 display_status INFO     COM19 closed
+18/10/2024 10:34:39 display_status INFO     Found 0 device(s)
+18/10/2024 10:34:39 display_status INFO     EXIT CODE: 2, NO DEVICE - make sure a valid controller is connected, that the correct baudrate is defined in config.json and ensure the NOVA LCT is not running on the host system
+18/10/2024 10:59:10 display_status INFO     *********************************************************************************************************************************************
+18/10/2024 10:59:10 display_status INFO     5Eyes - Starting Display Status Checks
+18/10/2024 10:59:10 display_status INFO     Loading config.json
+18/10/2024 10:59:10 display_status INFO     Version: 1.0.5, Baudrate: 115200, Sleep Time: 0.6, Flash Timeout: 15
+18/10/2024 10:59:10 display_status INFO     Reading from status.json
+18/10/2024 10:59:10 display_status INFO     Setting up serial port
+18/10/2024 10:59:10 display_status INFO     Found 9 serial ports
+18/10/2024 10:59:10 display_status INFO     Searching sender card on port: COM1
+18/10/2024 10:59:10 display_status INFO     COM1 opened
+18/10/2024 10:59:10 display_status DEBUG    Sending command: 55 AA 00 AA FE 00 00 00 00 00 00 00 02 00 00 00 02 00 01 57
+18/10/2024 10:59:11 display_status INFO     COM1 closed
+18/10/2024 10:59:11 display_status INFO     Searching sender card on port: COM2
+18/10/2024 10:59:11 display_status INFO     COM2 opened
+18/10/2024 10:59:11 display_status DEBUG    Sending command: 55 AA 00 AA FE 00 00 00 00 00 00 00 02 00 00 00 02 00 01 57
+18/10/2024 10:59:11 display_status INFO     COM2 closed
+18/10/2024 10:59:11 display_status INFO     Searching sender card on port: COM3
+18/10/2024 10:59:11 display_status INFO     COM3 opened
+18/10/2024 10:59:11 display_status DEBUG    Sending command: 55 AA 00 AA FE 00 00 00 00 00 00 00 02 00 00 00 02 00 01 57
+18/10/2024 10:59:12 display_status INFO     COM3 closed
+18/10/2024 10:59:12 display_status INFO     Searching sender card on port: COM4
+18/10/2024 10:59:12 display_status INFO     COM4 opened
+18/10/2024 10:59:12 display_status DEBUG    Sending command: 55 AA 00 AA FE 00 00 00 00 00 00 00 02 00 00 00 02 00 01 57
+18/10/2024 10:59:12 display_status INFO     COM4 closed
+18/10/2024 10:59:12 display_status INFO     Searching sender card on port: COM5
+18/10/2024 10:59:12 display_status INFO     COM5 opened
+18/10/2024 10:59:12 display_status DEBUG    Sending command: 55 AA 00 AA FE 00 00 00 00 00 00 00 02 00 00 00 02 00 01 57
+18/10/2024 10:59:13 display_status INFO     COM5 closed
+18/10/2024 10:59:13 display_status INFO     Searching sender card on port: COM6
+18/10/2024 10:59:13 display_status ERROR    could not open port 'COM6': PermissionError(13, 'Access is denied.', None, 5)
+18/10/2024 10:59:13 display_status INFO     Searching sender card on port: COM17
+18/10/2024 10:59:13 display_status ERROR    could not open port 'COM17': PermissionError(13, 'Access is denied.', None, 5)
+18/10/2024 10:59:13 display_status INFO     Searching sender card on port: COM18
+18/10/2024 10:59:13 display_status ERROR    could not open port 'COM18': PermissionError(13, 'Access is denied.', None, 5)
+18/10/2024 10:59:13 display_status INFO     Searching sender card on port: COM19
+18/10/2024 10:59:13 display_status INFO     COM19 opened
+18/10/2024 10:59:13 display_status DEBUG    Sending command: 55 AA 00 AA FE 00 00 00 00 00 00 00 02 00 00 00 02 00 01 57
+18/10/2024 10:59:14 display_status INFO     COM19 closed
+18/10/2024 10:59:14 display_status INFO     Found 0 device(s)
+18/10/2024 10:59:14 display_status INFO     EXIT CODE: 2, NO DEVICE - make sure a valid controller is connected, that the correct baudrate is defined in config.json and ensure the NOVA LCT is not running on the host system

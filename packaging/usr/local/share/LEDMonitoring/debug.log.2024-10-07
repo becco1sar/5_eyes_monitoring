@@ -1,0 +1,213 @@
+07/10/2024 08:50:31 display_status INFO     *********************************************************************************************************************************************
+07/10/2024 08:50:31 display_status INFO     5Eyes - Starting Display Status Checks
+07/10/2024 08:50:31 display_status INFO     Loading config.json
+07/10/2024 08:50:31 display_status INFO     Version: 1.0.5, Baudrate: 1048576, Sleep Time: 0.6, Flash Timeout: 15
+07/10/2024 08:50:31 display_status INFO     Reading from status.json
+07/10/2024 08:50:31 display_status INFO     Setting up serial port
+07/10/2024 08:50:31 display_status INFO     Found 1 serial ports
+07/10/2024 08:50:31 display_status INFO     Searching sender card on port: COM6
+07/10/2024 08:50:31 display_status ERROR    could not open port 'COM6': PermissionError(13, 'Access is denied.', None, 5)
+07/10/2024 08:50:31 display_status INFO     Found 0 device(s)
+07/10/2024 08:50:31 display_status INFO     EXIT CODE: 2, NO DEVICE FOUND:
+ make sure the correct baudrate is defined in config.json, 
+for windows control pc ensure the NOVA LCT is not running on the host system 
+This can also mean that you don't run the tool as administrator
+07/10/2024 11:29:45 display_status INFO     *********************************************************************************************************************************************
+07/10/2024 11:29:45 display_status INFO     5Eyes - Starting Display Status Checks
+07/10/2024 11:29:45 display_status INFO     Loading config.json
+07/10/2024 11:29:45 display_status INFO     Version: 1.0.5, Baudrate: 1048576, Sleep Time: 0.6, Flash Timeout: 15
+07/10/2024 11:29:45 display_status INFO     Reading from status.json
+07/10/2024 11:29:45 display_status INFO     Setting up serial port
+07/10/2024 11:29:45 display_status INFO     Found 1 serial ports
+07/10/2024 11:29:45 display_status INFO     Searching sender card on port: COM6
+07/10/2024 11:29:45 display_status INFO     COM6 opened
+07/10/2024 11:29:45 display_status DEBUG    Sending command: 55 AA 00 AA FE 00 00 00 00 00 00 00 02 00 00 00 02 00 01 57
+07/10/2024 11:29:45 display_status DEBUG    Received data:AA 55 00 AA 00 FE 00 00 00 00 00 00 02 00 00 00 02 00 01 11 13 57
+07/10/2024 11:29:45 display_status INFO     Device found on port: COM6 | USB Serial Port (COM6) | USB VID:PID=0403:6001 SER=5
+07/10/2024 11:29:50 display_status INFO     COM6 closed
+07/10/2024 11:29:50 display_status INFO     Found 1 device(s)
+07/10/2024 11:29:50 display_status INFO     *******************    DEVICE 0   *******************
+07/10/2024 11:29:50 display_status INFO     Connecting to device on COM6
+07/10/2024 11:29:50 display_status INFO     Opened device on port: COM6
+07/10/2024 11:29:50 display_status INFO     Writing to JSON file
+07/10/2024 11:54:50 display_status INFO     *********************************************************************************************************************************************
+07/10/2024 11:54:50 display_status INFO     5Eyes - Starting Display Status Checks
+07/10/2024 11:54:50 display_status INFO     Loading config.json
+07/10/2024 11:54:50 display_status INFO     Version: 1.0.5, Baudrate: 1048576, Sleep Time: 0.6, Flash Timeout: 15
+07/10/2024 11:54:50 display_status INFO     Reading from status.json
+07/10/2024 11:54:50 display_status INFO     Setting up serial port
+07/10/2024 11:54:50 display_status INFO     Found 2 serial ports
+07/10/2024 11:54:50 display_status INFO     Searching sender card on port: COM5
+07/10/2024 11:54:50 display_status INFO     COM5 opened
+07/10/2024 11:54:50 display_status DEBUG    Sending command: 55 AA 00 AA FE 00 00 00 00 00 00 00 02 00 00 00 02 00 01 57
+07/10/2024 11:54:55 display_status INFO     COM5 closed
+07/10/2024 11:54:55 display_status INFO     Searching sender card on port: COM6
+07/10/2024 11:54:55 display_status ERROR    could not open port 'COM6': PermissionError(13, 'Access is denied.', None, 5)
+07/10/2024 11:54:55 display_status INFO     Found 0 device(s)
+07/10/2024 11:54:55 display_status INFO     EXIT CODE: 2, NO DEVICE FOUND:
+ make sure the correct baudrate is defined in config.json, 
+for windows control pc ensure the NOVA LCT is not running on the host system 
+This can also mean that you don't run the tool as administrator
+07/10/2024 12:19:55 display_status INFO     *********************************************************************************************************************************************
+07/10/2024 12:19:55 display_status INFO     5Eyes - Starting Display Status Checks
+07/10/2024 12:19:55 display_status INFO     Loading config.json
+07/10/2024 12:19:55 display_status INFO     Version: 1.0.5, Baudrate: 1048576, Sleep Time: 0.6, Flash Timeout: 15
+07/10/2024 12:19:55 display_status INFO     Reading from status.json
+07/10/2024 12:19:55 display_status INFO     Setting up serial port
+07/10/2024 12:19:55 display_status INFO     Found 2 serial ports
+07/10/2024 12:19:55 display_status INFO     Searching sender card on port: COM5
+07/10/2024 12:19:55 display_status INFO     COM5 opened
+07/10/2024 12:19:55 display_status DEBUG    Sending command: 55 AA 00 AA FE 00 00 00 00 00 00 00 02 00 00 00 02 00 01 57
+07/10/2024 12:20:00 display_status INFO     COM5 closed
+07/10/2024 12:20:00 display_status INFO     Searching sender card on port: COM6
+07/10/2024 12:20:00 display_status INFO     COM6 opened
+07/10/2024 12:20:00 display_status DEBUG    Sending command: 55 AA 00 AA FE 00 00 00 00 00 00 00 02 00 00 00 02 00 01 57
+07/10/2024 12:20:00 display_status ERROR    Error communicating with device: list index out of range
+07/10/2024 12:20:00 display_status INFO     COM6 closed
+07/10/2024 12:20:00 display_status INFO     Found 0 device(s)
+07/10/2024 12:20:00 display_status INFO     EXIT CODE: 2, NO DEVICE FOUND:
+ make sure the correct baudrate is defined in config.json, 
+for windows control pc ensure the NOVA LCT is not running on the host system 
+This can also mean that you don't run the tool as administrator
+07/10/2024 12:45:00 display_status INFO     *********************************************************************************************************************************************
+07/10/2024 12:45:00 display_status INFO     5Eyes - Starting Display Status Checks
+07/10/2024 12:45:00 display_status INFO     Loading config.json
+07/10/2024 12:45:00 display_status INFO     Version: 1.0.5, Baudrate: 1048576, Sleep Time: 0.6, Flash Timeout: 15
+07/10/2024 12:45:00 display_status INFO     Reading from status.json
+07/10/2024 12:45:00 display_status INFO     Setting up serial port
+07/10/2024 12:45:00 display_status INFO     Found 2 serial ports
+07/10/2024 12:45:00 display_status INFO     Searching sender card on port: COM5
+07/10/2024 12:45:00 display_status INFO     COM5 opened
+07/10/2024 12:45:00 display_status DEBUG    Sending command: 55 AA 00 AA FE 00 00 00 00 00 00 00 02 00 00 00 02 00 01 57
+07/10/2024 12:45:06 display_status INFO     COM5 closed
+07/10/2024 12:45:06 display_status INFO     Searching sender card on port: COM6
+07/10/2024 12:45:06 display_status ERROR    could not open port 'COM6': PermissionError(13, 'Access is denied.', None, 5)
+07/10/2024 12:45:06 display_status INFO     Found 0 device(s)
+07/10/2024 12:45:06 display_status INFO     EXIT CODE: 2, NO DEVICE FOUND:
+ make sure the correct baudrate is defined in config.json, 
+for windows control pc ensure the NOVA LCT is not running on the host system 
+This can also mean that you don't run the tool as administrator
+07/10/2024 13:10:06 display_status INFO     *********************************************************************************************************************************************
+07/10/2024 13:10:06 display_status INFO     5Eyes - Starting Display Status Checks
+07/10/2024 13:10:06 display_status INFO     Loading config.json
+07/10/2024 13:10:06 display_status INFO     Version: 1.0.5, Baudrate: 1048576, Sleep Time: 0.6, Flash Timeout: 15
+07/10/2024 13:10:06 display_status INFO     Reading from status.json
+07/10/2024 13:10:06 display_status INFO     Setting up serial port
+07/10/2024 13:10:06 display_status INFO     Found 2 serial ports
+07/10/2024 13:10:06 display_status INFO     Searching sender card on port: COM5
+07/10/2024 13:10:06 display_status INFO     COM5 opened
+07/10/2024 13:10:06 display_status DEBUG    Sending command: 55 AA 00 AA FE 00 00 00 00 00 00 00 02 00 00 00 02 00 01 57
+07/10/2024 13:10:11 display_status INFO     COM5 closed
+07/10/2024 13:10:11 display_status INFO     Searching sender card on port: COM6
+07/10/2024 13:10:11 display_status ERROR    could not open port 'COM6': PermissionError(13, 'Access is denied.', None, 5)
+07/10/2024 13:10:11 display_status INFO     Found 0 device(s)
+07/10/2024 13:10:11 display_status INFO     EXIT CODE: 2, NO DEVICE FOUND:
+ make sure the correct baudrate is defined in config.json, 
+for windows control pc ensure the NOVA LCT is not running on the host system 
+This can also mean that you don't run the tool as administrator
+07/10/2024 14:49:46 display_status INFO     *********************************************************************************************************************************************
+07/10/2024 14:49:46 display_status INFO     5Eyes - Starting Display Status Checks
+07/10/2024 14:49:46 display_status INFO     Loading config.json
+07/10/2024 14:49:46 display_status INFO     Version: 1.0.5, Baudrate: 1048576, Sleep Time: 0.6, Flash Timeout: 15
+07/10/2024 14:49:46 display_status INFO     Reading from status.json
+07/10/2024 14:49:46 display_status INFO     Setting up serial port
+07/10/2024 14:49:46 display_status INFO     Found 2 serial ports
+07/10/2024 14:49:46 display_status INFO     Searching sender card on port: COM5
+07/10/2024 14:49:46 display_status INFO     COM5 opened
+07/10/2024 14:49:46 display_status DEBUG    Sending command: 55 AA 00 AA FE 00 00 00 00 00 00 00 02 00 00 00 02 00 01 57
+07/10/2024 14:49:51 display_status INFO     COM5 closed
+07/10/2024 14:49:51 display_status INFO     Searching sender card on port: COM6
+07/10/2024 14:49:51 display_status INFO     COM6 opened
+07/10/2024 14:49:51 display_status DEBUG    Sending command: 55 AA 00 AA FE 00 00 00 00 00 00 00 02 00 00 00 02 00 01 57
+07/10/2024 14:49:51 display_status ERROR    Error communicating with device: list index out of range
+07/10/2024 14:49:51 display_status INFO     COM6 closed
+07/10/2024 14:49:51 display_status INFO     Found 0 device(s)
+07/10/2024 14:49:51 display_status INFO     EXIT CODE: 2, NO DEVICE FOUND:
+ make sure the correct baudrate is defined in config.json, 
+for windows control pc ensure the NOVA LCT is not running on the host system 
+This can also mean that you don't run the tool as administrator
+07/10/2024 15:14:22 display_status INFO     *********************************************************************************************************************************************
+07/10/2024 15:14:22 display_status INFO     5Eyes - Starting Display Status Checks
+07/10/2024 15:14:22 display_status INFO     Loading config.json
+07/10/2024 15:14:22 display_status INFO     Version: 1.0.5, Baudrate: 1048576, Sleep Time: 0.6, Flash Timeout: 15
+07/10/2024 15:14:22 display_status INFO     Reading from status.json
+07/10/2024 15:14:22 display_status INFO     Setting up serial port
+07/10/2024 15:14:22 display_status INFO     Found 2 serial ports
+07/10/2024 15:14:22 display_status INFO     Searching sender card on port: COM5
+07/10/2024 15:14:22 display_status INFO     COM5 opened
+07/10/2024 15:14:22 display_status DEBUG    Sending command: 55 AA 00 AA FE 00 00 00 00 00 00 00 02 00 00 00 02 00 01 57
+07/10/2024 15:14:27 display_status INFO     COM5 closed
+07/10/2024 15:14:27 display_status INFO     Searching sender card on port: COM6
+07/10/2024 15:14:27 display_status INFO     COM6 opened
+07/10/2024 15:14:27 display_status DEBUG    Sending command: 55 AA 00 AA FE 00 00 00 00 00 00 00 02 00 00 00 02 00 01 57
+07/10/2024 15:14:27 display_status DEBUG    Received data:AA 55 00 AA 00 FE 00 00 00 00 00 00 02 00 00 00 02 00 01 11 13 57
+07/10/2024 15:14:27 display_status INFO     Device found on port: COM6 | USB Serial Port (COM6) | USB VID:PID=0403:6001 SER=5
+07/10/2024 15:14:33 display_status INFO     COM6 closed
+07/10/2024 15:14:33 display_status INFO     Found 1 device(s)
+07/10/2024 15:14:33 display_status INFO     *******************    DEVICE 0   *******************
+07/10/2024 15:14:33 display_status INFO     Connecting to device on COM6
+07/10/2024 15:14:33 display_status INFO     Opened device on port: COM6
+07/10/2024 15:14:33 display_status INFO     Writing to JSON file
+07/10/2024 15:39:27 display_status INFO     *********************************************************************************************************************************************
+07/10/2024 15:39:27 display_status INFO     5Eyes - Starting Display Status Checks
+07/10/2024 15:39:27 display_status INFO     Loading config.json
+07/10/2024 15:39:27 display_status INFO     Version: 1.0.5, Baudrate: 1048576, Sleep Time: 0.6, Flash Timeout: 15
+07/10/2024 15:39:27 display_status INFO     Reading from status.json
+07/10/2024 15:39:27 display_status INFO     Setting up serial port
+07/10/2024 15:39:27 display_status INFO     Found 2 serial ports
+07/10/2024 15:39:27 display_status INFO     Searching sender card on port: COM5
+07/10/2024 15:39:27 display_status INFO     COM5 opened
+07/10/2024 15:39:27 display_status DEBUG    Sending command: 55 AA 00 AA FE 00 00 00 00 00 00 00 02 00 00 00 02 00 01 57
+07/10/2024 15:39:32 display_status INFO     COM5 closed
+07/10/2024 15:39:32 display_status INFO     Searching sender card on port: COM6
+07/10/2024 15:39:32 display_status INFO     COM6 opened
+07/10/2024 15:39:32 display_status DEBUG    Sending command: 55 AA 00 AA FE 00 00 00 00 00 00 00 02 00 00 00 02 00 01 57
+07/10/2024 15:39:32 display_status DEBUG    Received data:AA 55 00 AA 00 FE 00 00 00 00 00 00 02 00 00 00 02 00 01 11 13 57
+07/10/2024 15:39:32 display_status INFO     Device found on port: COM6 | USB Serial Port (COM6) | USB VID:PID=0403:6001 SER=5
+07/10/2024 15:39:37 display_status INFO     COM6 closed
+07/10/2024 15:39:37 display_status INFO     Found 1 device(s)
+07/10/2024 15:39:37 display_status INFO     *******************    DEVICE 0   *******************
+07/10/2024 15:39:37 display_status INFO     Connecting to device on COM6
+07/10/2024 15:39:37 display_status INFO     Opened device on port: COM6
+07/10/2024 15:39:37 display_status INFO     Writing to JSON file
+07/10/2024 16:04:32 display_status INFO     *********************************************************************************************************************************************
+07/10/2024 16:04:32 display_status INFO     5Eyes - Starting Display Status Checks
+07/10/2024 16:04:32 display_status INFO     Loading config.json
+07/10/2024 16:04:32 display_status INFO     Version: 1.0.5, Baudrate: 1048576, Sleep Time: 0.6, Flash Timeout: 15
+07/10/2024 16:04:32 display_status INFO     Reading from status.json
+07/10/2024 16:04:32 display_status INFO     Setting up serial port
+07/10/2024 16:04:32 display_status INFO     Found 2 serial ports
+07/10/2024 16:04:32 display_status INFO     Searching sender card on port: COM5
+07/10/2024 16:04:32 display_status ERROR    could not open port 'COM5': PermissionError(13, 'Access is denied.', None, 5)
+07/10/2024 16:04:32 display_status INFO     Searching sender card on port: COM6
+07/10/2024 16:04:32 display_status INFO     COM6 opened
+07/10/2024 16:04:32 display_status DEBUG    Sending command: 55 AA 00 AA FE 00 00 00 00 00 00 00 02 00 00 00 02 00 01 57
+07/10/2024 16:04:32 display_status DEBUG    Received data:AA 55 00 AA 00 FE 00 00 00 00 00 00 02 00 00 00 02 00 01 11 13 57
+07/10/2024 16:04:32 display_status INFO     Device found on port: COM6 | USB Serial Port (COM6) | USB VID:PID=0403:6001 SER=5
+07/10/2024 16:04:37 display_status INFO     COM6 closed
+07/10/2024 16:04:37 display_status INFO     Found 1 device(s)
+07/10/2024 16:04:37 display_status INFO     *******************    DEVICE 0   *******************
+07/10/2024 16:04:37 display_status INFO     Connecting to device on COM6
+07/10/2024 16:04:37 display_status INFO     Opened device on port: COM6
+07/10/2024 16:04:37 display_status INFO     Writing to JSON file
+07/10/2024 16:29:36 display_status INFO     *********************************************************************************************************************************************
+07/10/2024 16:29:36 display_status INFO     5Eyes - Starting Display Status Checks
+07/10/2024 16:29:36 display_status INFO     Loading config.json
+07/10/2024 16:29:36 display_status INFO     Version: 1.0.5, Baudrate: 1048576, Sleep Time: 0.6, Flash Timeout: 15
+07/10/2024 16:29:36 display_status INFO     Reading from status.json
+07/10/2024 16:29:36 display_status INFO     Setting up serial port
+07/10/2024 16:29:36 display_status INFO     Found 2 serial ports
+07/10/2024 16:29:36 display_status INFO     Searching sender card on port: COM5
+07/10/2024 16:29:36 display_status INFO     COM5 opened
+07/10/2024 16:29:36 display_status DEBUG    Sending command: 55 AA 00 AA FE 00 00 00 00 00 00 00 02 00 00 00 02 00 01 57
+07/10/2024 16:29:42 display_status INFO     COM5 closed
+07/10/2024 16:29:42 display_status INFO     Searching sender card on port: COM6
+07/10/2024 16:29:42 display_status INFO     COM6 opened
+07/10/2024 16:29:42 display_status DEBUG    Sending command: 55 AA 00 AA FE 00 00 00 00 00 00 00 02 00 00 00 02 00 01 57
+07/10/2024 16:29:42 display_status ERROR    Error communicating with device: list index out of range
+07/10/2024 16:29:42 display_status INFO     COM6 closed
+07/10/2024 16:29:42 display_status INFO     Found 0 device(s)
+07/10/2024 16:29:42 display_status INFO     EXIT CODE: 2, NO DEVICE FOUND:
+ make sure the correct baudrate is defined in config.json, 
+for windows control pc ensure the NOVA LCT is not running on the host system 
+This can also mean that you don't run the tool as administrator
