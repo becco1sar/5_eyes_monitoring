@@ -7,7 +7,7 @@ on:
     branches: [ "main" ]
 jobs:
   build-deb:
-    runs-on: [ubuntu-20.04, self-hosted]
+    runs-on: self-hosted
 
     # Ensures that the default GITHUB_TOKEN can create/releases
     permissions:
