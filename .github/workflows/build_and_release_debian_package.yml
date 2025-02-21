@@ -7,7 +7,7 @@ on:
     branches: [ "main" ]
 jobs:
   build-deb:
-    runs-on: ubuntu-20.04
+    runs-on: [ubuntu-20.04, self-hosted]
 
     # Ensures that the default GITHUB_TOKEN can create/releases
     permissions:
@@ -37,6 +37,7 @@ jobs:
             mkdir -p package/usr/local/share/          
           else
             mkdir package/usr/local/share/monitoring_tool
+          fi
           # Change permissions to executable
           chmod 755 package/DEBIAN/postinst
           cp -R src/monitoring_listener.py package/usr/local/share/monitoring_tool/
