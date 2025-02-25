@@ -1,4 +1,4 @@
-#!/bin/bashdebug_
+#!/bin/bash
 set -e
 
 path_to_monitoring_checks_logs="/var/log/LEDMonitoring"
@@ -7,7 +7,7 @@ path_to_monitoring_checks_logs="/var/log/LEDMonitoring"
 echo "creating log folder LEDMonitoring"
 mkdir -p $path_to_monitoring_checks_logs
 echo "changing permissions on LEDMonitoring"
-chmod 775 path_to_monitoring_checks_logs
+chmod 775 $path_to_monitoring_checks_logs
 echo "creating log files for the monitoring"
 touch $path_to_monitoring_checks_logs/debug_dvi.log
 touch $path_to_monitoring_checks_logs/debug_cabinet.log
