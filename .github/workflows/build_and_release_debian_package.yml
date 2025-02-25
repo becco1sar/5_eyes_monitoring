@@ -60,9 +60,8 @@ jobs:
       - name: Create or update GitHub Release
         id: create_release
         uses: actions/create-release@v1
-            # Ensures that the default GITHUB_TOKEN can create/releases
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # <-- Provided in env, not "with:"
+        # Ensures that the default GITHUB_TOKEN can create/releases
+
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           tag_name: ${{ github.ref_name }}
@@ -74,7 +73,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # <-- Also required here
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           upload_url: ${{ steps.create_release.outputs.upload_url }}
           asset_path: mytool_0.1.1.deb
           asset_name: mytool_0.1.1.deb
