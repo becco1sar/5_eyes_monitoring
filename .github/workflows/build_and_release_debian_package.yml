@@ -44,7 +44,7 @@ jobs:
           cp -R src/monitoring_listener.py package/usr/local/share/monitoring_tool/
 
           # Build .deb
-          dpkg-deb --build package mytool_1.0.0.deb
+          dpkg-deb --build package mytool_0.0.1.deb
       - name: Setup structure and files
         run: |
           nagios_dir="/usr/lib/nagios"
@@ -75,6 +75,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # <-- Also required here
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: mytool_0.1.1.deb
-          asset_name: mytool_0.1.1.deb
+          #making sure the name is same as the package created in section build debian package
+          asset_path: mytool_0.0.1.deb
+          asset_name: mytool_0.0.1.deb
           asset_content_type: application/octet-stream
