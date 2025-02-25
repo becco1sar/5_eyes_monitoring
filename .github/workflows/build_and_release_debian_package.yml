@@ -26,6 +26,7 @@ jobs:
         run: |
           # Create staging folder
           mkdir package
+          ls -lR package/
           sudo dpkg --clear-avail
           # Copy all packaging content to staging
           chmod +x packaging/usr/local/bin/monitoring_tool
@@ -43,6 +44,7 @@ jobs:
           cp -R src/monitoring_listener.py package/usr/local/share/monitoring_tool/
 
           # Build .deb
+          ls -lR package/
           dpkg-deb --build package mytool_1.0.0.deb
       - name: Setup structure and files
         run: |
