@@ -60,8 +60,9 @@ jobs:
       - name: Create or update GitHub Release
         id: create_release
         uses: actions/create-release@v1
-        # Ensures that the default GITHUB_TOKEN can create/releases
-
+            # Ensures that the default GITHUB_TOKEN can create/releases
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # <-- Provided in env, not "with:"
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           tag_name: ${{ github.ref_name }}
