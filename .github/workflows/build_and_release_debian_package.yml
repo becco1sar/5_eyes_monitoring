@@ -32,6 +32,7 @@ jobs:
           # Copy all packaging content to staging
           chmod +x packaging/usr/local/bin/monitoring_tool
           cp -r packaging/* package/
+          cp -r DEBIAN package/
           ls -R package #test line check if all files has been imported
 
           # Also copy the Python source into an appropriate location
