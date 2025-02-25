@@ -31,7 +31,7 @@ jobs:
           sudo dpkg --clear-avail
           # Copy all packaging content to staging
           chmod +x packaging/usr/local/bin/monitoring_tool
-          cp -R packaging/ package/
+          cp -R packaging/* package/
           cp -R packaging/DEBIAN package/DEBIAN
 
           # Also copy the Python source into an appropriate location
@@ -54,8 +54,8 @@ jobs:
           fi
 
           sudo mkdir -p /data/opt/LEDMonitoring
-          sudo cp -R package/usr/local/share/monitoring_tool/nagios_check $nagios_dir/plugins/
-          sudo cp -R package/usr/local/share/monitoring_tool/LEDMonitoring /data/opt/LEDMonitoring
+          sudo cp -R package/usr/local/share/nagios_check $nagios_dir/plugins/
+          sudo cp -R package/usr/local/share/LEDMonitoring /data/opt/LEDMonitoring
 
       - name: Create or update GitHub Release
         id: create_release
