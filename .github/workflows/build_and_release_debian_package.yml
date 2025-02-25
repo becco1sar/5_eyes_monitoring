@@ -18,22 +18,21 @@ jobs:
         uses: actions/checkout@v2
       - name: Install tools
         run: |
-          echo "Test"
+          echo "Updating apt repos"
           sudo apt-get update
+          echo "Installing dpkg dev package"
           sudo apt-get install -y dpkg-dev
-          echo "Test"
+          echo "Installing serial for python 3"
           sudo apt install python3-serial
       - name: Build Debian package
         id: build_deb
         run: |
-          echo "test" 
           # Create staging folder
           mkdir package
           sudo dpkg --clear-avail
           # Copy all packaging content to staging
           chmod +x packaging/usr/local/bin/monitoring_tool
-          cp -r packaging/* package/
-          cp -r DEBIAN package/
+          cp -R packaging/* package/
           ls -R package #test line check if all files has been imported
 
           # Also copy the Python source into an appropriate location
@@ -43,7 +42,7 @@ jobs:
           fi
           # Change permissions to executable
           chmod 755 package/DEBIAN/postinst
-          cp -r src/monitoring_listener.py package/usr/local/share/monitoring_tool/
+          cp -R src/monitoring_listener.py package/usr/local/share/monitoring_tool/
 
           # Build .deb
           dpkg-deb --build package mytool_1.0.0.deb
