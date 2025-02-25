@@ -28,10 +28,11 @@ jobs:
         run: |
           # Create staging folder
           mkdir package
-          sudo dpkg --clear-avail
           # Copy all packaging content to staging
           chmod +x packaging/usr/local/bin/monitoring_tool
           cp -R packaging/* package/
+          ls -lR packaging
+          ls -lR package
 
           # Also copy the Python source into an appropriate location
           # so that it's packaged. We'll put it under /usr/local/share/monitoring_tool.
