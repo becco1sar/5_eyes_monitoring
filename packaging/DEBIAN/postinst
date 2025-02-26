@@ -12,8 +12,8 @@ fi
 #create LEDMonitoring folder in data/opt
 mkdir -p /data/opt/LEDMonitoring
 #copy files to dedicated directories
-cp -R /usr/local/share/nagios_check $nagios_dir/plugins/
-cp -R /usr/local/share/LEDMonitoring /data/opt/LEDMonitoring
+cp -R /usr/local/share/nagios_check/* $nagios_dir/plugins/
+cp -R /usr/local/share/LEDMonitoring /data/opt/
 # Example: create a log folder
 echo "creating log folder LEDMonitoring"
 mkdir -p $path_to_monitoring_checks_logs
