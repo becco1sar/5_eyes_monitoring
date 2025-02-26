@@ -32,13 +32,14 @@ echo "changing permissions on LEDMonitoring"
 chmod 775 $path_to_monitoring_checks_logs/debug_*
 echo "setting owner of LEDMonitoring log folder"
 chown root:root $path_to_monitoring_checks_logs
-echo "setting owner of LEDMonitoring log folder"
+echo "updating permissions for LEDMonitoring folder"
 chmod a+rwx /data/opt/LEDMonitoring
 chmod a+rwx /data/opt/LEDMonitoring/*
 chmod +x /$nagios_dir/plugins/*
 echo "changing permission on ttyUSB"
 sudo chmod +x /dev/ttyUSB*
-echo
+echo installing pyserial
+apt install python3-serial
 echo "Done"
 
 #testing nagios scripts
