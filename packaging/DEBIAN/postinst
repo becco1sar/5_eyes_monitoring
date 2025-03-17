@@ -38,8 +38,6 @@ chmod a+rwx /data/opt/LEDMonitoring/*
 chmod +x /$nagios_dir/plugins/*
 echo "changing permission on ttyUSB"
 sudo chmod +x /dev/ttyUSB*
-echo installing pyserial
-apt install python3-serial
 echo "Done"
 
 #testing nagios scripts
